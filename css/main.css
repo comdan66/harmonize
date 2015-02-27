@@ -168,7 +168,6 @@ html body .container .header .items .menu .item:before {
 }
 html body .container .block {
   border: 1px solid rgba(255, 0, 0, 0.3);
-  height: 500px;
   background-color: rgba(170, 170, 170, 0.2);
 }
 html body .container .block + .block {
@@ -254,7 +253,4 @@ html body .container #parallax-bg {
   left: 0;
   top: 0;
   width: 100%;
-}
-html body .container #parallax-bg #bg1-1 {
-  position: absolute;
 }

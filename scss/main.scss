@@ -90,10 +90,13 @@ html {
       }
       .block {
         border: 1px solid rgba(255, 0, 0, .3);
-        height: 500px;
         background-color: rgba(170, 170, 170, .2);
         & + .block {
           margin-top: 30px;
+        }
+
+        &.banner {
+
         }
       }
       .footer {
@@ -107,15 +110,18 @@ html {
           display: inline-block;
           height: 100%;
           width: calc(100% - 550px);
+
           .info {
             margin-top: 90px;
             font-size: 18px;
             color: rgba(255, 246, 248, 1);
           }
+
           &:first-child {
             text-align: left;
             width: 250px;
           }
+
           &:last-child {
             width: 300px;
             text-align: center;
@@ -168,10 +174,6 @@ html {
         left: 0;
         top: 0;
         width: 100%;
-
-        #bg1-1 {
-          position: absolute;
-        }
       }
     }
   }
