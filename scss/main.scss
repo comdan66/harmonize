@@ -424,25 +424,65 @@ html {
               border-bottom: 3px solid rgba(0, 0, 0, 1);
             }
             .icons {
-              margin-top: 10px;
-              border: 1px solid rgba(255, 0, 0, .3);
+              margin-top: 80px;
+              margin-bottom: 50px;
               display: inline-block;
               width: 100%;
-              height: 100px;
               text-align: center;
 
               .icons_container {
                 display: inline-block;
                 margin: 0 auto;
-                border: 1px solid rgba(255, 0, 0, .3);
+                @include clearfix();
 
                 .icon {
-                  border: 1px solid rgba(255, 0, 0, .3);
+                  float: left;
+                  cursor: pointer;
                   display: inline-block;
-                  width: 100px;
+                  width: 150px;
+                  color: rgba(119, 168, 73, 1);
 
+                  @include transition(all .5s);
+
+                  & + .icon {
+                    margin-left: 100px;
+                  }
+
+                  &.show, &:hover {
+                    color: rgba(70, 35, 33, 1);
+
+                    img {
+                      background-color: rgba(70, 35, 33, 1);
+                    }
+                  }
+                  .name {
+                    font-size: 25px;
+                  }
+                  img {
+                    @include border-radius(3px);
+                    margin-top: 15px;
+                    background-color: rgba(119, 168, 73, 1);
+                    @include transition(all .5s);
+                  }
                 }
               }
+            }
+          }
+          .info {
+            background-color: rgba(73, 36, 37, 1);
+            height: 130px;
+            .info_container {
+              position: relative;
+              display: inline-block;
+              width: $mainWidth;
+              height: 100%;
+
+              margin: 0 auto;
+              text-align: center;
+              padding-top: 30px;
+              text-align: left;
+              color: rgba(255, 255, 255, 1);
+              font-size: 20px;
             }
           }
         }

@@ -542,22 +542,72 @@ html body .container .block.service .service .line {
   border-bottom: 3px solid black;
 }
 html body .container .block.service .service .icons {
-  margin-top: 10px;
-  border: 1px solid rgba(255, 0, 0, 0.3);
+  margin-top: 80px;
+  margin-bottom: 50px;
   display: inline-block;
   width: 100%;
-  height: 100px;
   text-align: center;
 }
 html body .container .block.service .service .icons .icons_container {
   display: inline-block;
   margin: 0 auto;
-  border: 1px solid rgba(255, 0, 0, 0.3);
+  *zoom: 1;
+}
+html body .container .block.service .service .icons .icons_container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
 }
 html body .container .block.service .service .icons .icons_container .icon {
-  border: 1px solid rgba(255, 0, 0, 0.3);
+  float: left;
+  cursor: pointer;
   display: inline-block;
-  width: 100px;
+  width: 150px;
+  color: #77a849;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+html body .container .block.service .service .icons .icons_container .icon + .icon {
+  margin-left: 100px;
+}
+html body .container .block.service .service .icons .icons_container .icon.show, html body .container .block.service .service .icons .icons_container .icon:hover {
+  color: #462321;
+}
+html body .container .block.service .service .icons .icons_container .icon.show img, html body .container .block.service .service .icons .icons_container .icon:hover img {
+  background-color: #462321;
+}
+html body .container .block.service .service .icons .icons_container .icon .name {
+  font-size: 25px;
+}
+html body .container .block.service .service .icons .icons_container .icon img {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 15px;
+  background-color: #77a849;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+html body .container .block.service .info {
+  background-color: #492425;
+  height: 130px;
+}
+html body .container .block.service .info .info_container {
+  position: relative;
+  display: inline-block;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  text-align: left;
+  color: white;
+  font-size: 20px;
 }
 html body .container .footer {
   background-color: #52292b;

@@ -55,4 +55,9 @@ $(function () {
 
   }).resize ();
 
+
+  $('.service .icon').mouseover (function () {
+    $(this).addClass ('show').siblings ().removeClass ('show');
+    $('.service .info_container').text ($(this).data ('info'));
+  })
 });
