@@ -52,6 +52,7 @@ $(function () {
       timer = setTimeout (loop, 3000);
     }
     loop ();
+
   }).resize ();
 
 });
