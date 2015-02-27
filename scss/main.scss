@@ -5,7 +5,7 @@
 
 @import "_oa";
 
-$header: 100px;
+$header: 180px;
 html {
   body {
     padding-top: $header;
@@ -18,9 +18,76 @@ html {
         display: inline-block;
         width: 100%;
         height: $header;
-        border: 1px solid rgba(255, 0, 0, .3);
         background-color: rgba(82, 41, 43, 1);
 
+        @include split-left(300px, '.logo', '.items');
+
+
+        .logo, .items {
+          height: 125px;
+        }
+        .logo {
+          position: relative;
+          text-align: left;
+
+          img {
+            position: absolute;
+            left: 15px;
+            bottom: 0;
+          }
+        }
+        .items {
+          padding-right: 15px;
+          .langs {
+            margin-top: 45px;
+            text-align: right;
+            @include clearfix();
+
+            a {
+              float: right;
+              padding: 0 10px;
+              margin-left: 10px;
+              @include a(rgba(234, 223, 221, 1), rgba(130, 176, 88, 1));
+              &.active {
+                color: rgba(134, 181, 96, 1);
+                border-color: rgba(130, 176, 88, 1);
+              }
+            }
+          }
+          .menu {
+            margin-top: 40px;
+            @include clearfix();
+
+            .item {
+              float: right;
+              color: rgba(234, 223, 221, 1);
+              margin-left: 25px;
+              cursor: pointer;
+              font-size: 18px;
+              line-height: 21px;
+              @include transition(all .3s);
+
+              &.active, &:hover {
+                color: rgba(130, 176, 88, 1);
+
+                &:before {
+                  @include opacity(1);
+                }
+              }
+              &:before {
+                content: " ";
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1YmMzZDRkNy1lNTRiLTQxMjEtODlmYi00MDc4NjJjYjljMjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzM5N0QwQzRCNjczMTFFNDhGOTVBMEQ5ODYyMzM4NUIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzM5N0QwQzNCNjczMTFFNDhGOTVBMEQ5ODYyMzM4NUIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkYjgzODYyYi00NDgzLTQwMzktOGE2Zi0wNjc4NGZkOWNmZGQiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDowNGRlOTZiYy1mZTdjLTExNzctYjhkNS1mNjIyYTVkMzIzODMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz71hpxiAAABfUlEQVR42mL8//8/AzUBC4hgZGREEWzcGMwEpIKAOBiIbYFYHCr1EogPA/FaIF5X77/2H7I+kOMYwQSSgUDD7IHUdCDWJOCY60CcCTT0ILKBTGguSwNS+4gwjAGqZh9UDxzAXQiU8ALyt4DESAw2UCT4AF26De7lpk0h3EDB20AsSWZcPAdi1Tq/NV9hXk6iwDAGqF6QGfAwDMaj+AcQr4biH3jUBcGTDRAY4VD0DYgtgeFzCRppekDqOBBzYVFrjOxCXhwGboAZBgJQ9gYcanmRDcTlFW4ixeBmwAx8hkORF9CbpkjpFMT2wqH2GXIYHgViJSyKWEFZDWjQJijfDyqGDRxFduEmPLHHDsShUMyOR90mZAM3AvFdCtLhXVhkMUFj7zeQSgfif2QYBtKTDjTjD7ILQYbuBVJZ0LxJSj7OguplQDEQauhMIOUNxE+IMAykxhuqB7O0QSvGOIFUFBCHADEod4hBpV4BMShxrwHiZUDDvmMtYKkJAAIMAOjMfqOeX2UQAAAAAElFTkSuQmCC);
+                margin-right: 5px;
+
+                @include opacity(0);
+                @include transition(all .3s);
+              }
+            }
+          }
+        }
       }
       .block {
         border: 1px solid rgba(255, 0, 0, .3);
