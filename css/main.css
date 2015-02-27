@@ -458,6 +458,62 @@ html body .container .block.people .people .bottom .button:hover {
   color: #52292b;
   border-color: #52292b;
 }
+html body .container .block.dna {
+  height: 345px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #fcfaf8;
+  border-bottom: 1px solid #fcfaf8;
+}
+html body .container .block.dna .dna {
+  position: relative;
+  display: inline-block;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+html body .container .block.dna .dna .title {
+  margin-top: 60px;
+  font-size: 30px;
+  color: white;
+}
+html body .container .block.dna .dna .title p {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 50px;
+  margin-top: -15px;
+}
+html body .container .block.dna .dna .infos {
+  margin-top: 20px;
+  *zoom: 1;
+}
+html body .container .block.dna .dna .infos:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body .container .block.dna .dna .infos .quote, html body .container .block.dna .dna .infos .info {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+html body .container .block.dna .dna .infos .info {
+  float: right;
+}
+html body .container .block.dna .dna .infos .quote {
+  width: 90px;
+}
+html body .container .block.dna .dna .infos .info {
+  width: calc(100% - 90px);
+}
+html body .container .block.dna .dna .infos .info {
+  padding-left: 10px;
+  margin-top: 63px;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
 html body .container .footer {
   background-color: #52292b;
   height: 180px;
