@@ -176,10 +176,11 @@ html body .container .block {
   text-align: center;
 }
 html body .container .block + .block {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 html body .container .block.banner {
   text-align: left;
+  overflow: hidden;
 }
 html body .container .block.banner .banners {
   position: relative;
@@ -261,7 +262,7 @@ html body .container .block.ask {
   height: 530px;
   border-top: 1px solid #fcfaf8;
   border-bottom: 1px solid #fcfaf8;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 html body .container .block.ask .ask {
   position: relative;
@@ -464,7 +465,7 @@ html body .container .block.people .people .bottom .button:hover {
 }
 html body .container .block.dna {
   height: 345px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   border-top: 1px solid #fcfaf8;
   border-bottom: 1px solid #fcfaf8;
 }
@@ -613,7 +614,7 @@ html body .container .block.service .info .info_container {
 html body .container .block.process {
   border-top: 1px solid #fcfaf8;
   border-bottom: 1px solid #fcfaf8;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 html body .container .block.process .line {
   position: absolute;

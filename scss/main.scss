@@ -7,6 +7,9 @@
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
 $header: 180px;
+$bnb: 100px;
+$bbg: rgba(0, 0, 0, .4);
+
 html {
   body {
     padding-top: $header;
@@ -49,6 +52,7 @@ html {
               padding: 0 10px;
               margin-left: 10px;
               @include a(rgba(234, 223, 221, 1), rgba(130, 176, 88, 1));
+
               &.active {
                 color: rgba(134, 181, 96, 1);
                 border-color: rgba(130, 176, 88, 1);
@@ -98,10 +102,12 @@ html {
         text-align: center;
 
         & + .block {
-          margin-top: 30px;
+          margin-top: $bnb;
         }
         &.banner {
           text-align: left;
+          overflow: hidden;
+
           .banners {
             position: relative;
             display: inline-block;
@@ -179,7 +185,7 @@ html {
           height: 530px;
           border-top: 1px solid rgba(252, 250, 248, 1);
           border-bottom: 1px solid rgba(252, 250, 248, 1);
-          background-color: rgba(0, 0, 0, .2);
+          background-color: $bbg;
 
           .ask {
             position: relative;
@@ -357,7 +363,7 @@ html {
 
         &.dna {
           height: 345px;
-          background-color: rgba(0, 0, 0, .2);
+          background-color: $bbg;
           border-top: 1px solid rgba(252, 250, 248, 1);
           border-bottom: 1px solid rgba(252, 250, 248, 1);
 
@@ -491,7 +497,7 @@ html {
         &.process {
           border-top: 1px solid rgba(252, 250, 248, 1);
           border-bottom: 1px solid rgba(252, 250, 248, 1);
-          background-color: rgba(0, 0, 0, .2);
+          background-color: $bbg;
           .line {
             position: absolute;
             bottom: 184px;
@@ -501,7 +507,7 @@ html {
             width: 100%;
 
             border: 1px solid rgba(119, 168, 73, 1);
-            
+
           }
           .process {
             position: relative;

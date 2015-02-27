@@ -5,7 +5,7 @@
 
 $(function () {
   $(window).bind ('scroll', function (e) {
-    $('#parallax-bg').css ('top', (0 - ($(window).scrollTop () * 0.25)) + 'px');
+    $('#parallax-bg').css ('top', (0 - ($(window).scrollTop () * 0.35)) + 'px');
   });
 
 
