@@ -530,7 +530,7 @@ html body .container .block.service .service {
   text-align: center;
 }
 html body .container .block.service .service .title {
-  margin-top: 20px;
+  margin-top: 90px;
   font-size: 50px;
   font-weight: bold;
 }
@@ -608,6 +608,126 @@ html body .container .block.service .info .info_container {
   text-align: left;
   color: white;
   font-size: 20px;
+  line-height: 30px;
+}
+html body .container .block.process {
+  border-top: 1px solid #fcfaf8;
+  border-bottom: 1px solid #fcfaf8;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+html body .container .block.process .line {
+  position: absolute;
+  bottom: 184px;
+  left: 0px;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #77a849;
+}
+html body .container .block.process .process {
+  position: relative;
+  display: inline-block;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+html body .container .block.process .process .title {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 35px;
+  color: white;
+}
+html body .container .block.process .process .main_avatar {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: inline-block;
+  width: 255px;
+  height: 255px;
+  border: 3px solid #77a849;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+html body .container .block.process .process .sub_title {
+  margin-top: 20px;
+  color: white;
+  font-size: 25px;
+}
+html body .container .block.process .process .icons {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: inline-block;
+  width: calc(100% + 200px);
+  margin-left: -100px;
+  text-align: center;
+}
+html body .container .block.process .process .icons .icons_container {
+  display: inline-block;
+  margin: 0 auto;
+  *zoom: 1;
+}
+html body .container .block.process .process .icons .icons_container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body .container .block.process .process .icons .icons_container .icon {
+  float: left;
+  cursor: pointer;
+  display: inline-block;
+  width: 150px;
+  color: white;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+html body .container .block.process .process .icons .icons_container .icon + .icon {
+  margin-left: 40px;
+}
+html body .container .block.process .process .icons .icons_container .icon .name {
+  margin-top: 15px;
+  font-size: 18px;
+  *zoom: 1;
+}
+html body .container .block.process .process .icons .icons_container .icon .name:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body .container .block.process .process .icons .icons_container .icon .name .num, html body .container .block.process .process .icons .icons_container .icon .name .content {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+html body .container .block.process .process .icons .icons_container .icon .name .content {
+  float: right;
+}
+html body .container .block.process .process .icons .icons_container .icon .name .num {
+  width: 50px;
+}
+html body .container .block.process .process .icons .icons_container .icon .name .content {
+  width: calc(100% - 50px);
+}
+html body .container .block.process .process .icons .icons_container .icon .name .num {
+  font-size: 36px;
+}
+html body .container .block.process .process .icons .icons_container .icon .name .content {
+  text-align: left;
+}
+html body .container .block.process .process .icons .icons_container .icon img {
+  border: 3px solid #77a849;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 html body .container .footer {
   background-color: #52292b;

@@ -399,7 +399,7 @@ html {
           }
         }
         &.service {
-          background-color: rgba(255, 2550, 255, 1);
+          background-color: rgba(255, 255, 255, 1);
 
           .service {
             position: relative;
@@ -412,7 +412,7 @@ html {
 
 
             .title {
-              margin-top: 20px;
+              margin-top: 90px;
               font-size: 50px;
               font-weight: bold;
             }
@@ -483,10 +483,111 @@ html {
               text-align: left;
               color: rgba(255, 255, 255, 1);
               font-size: 20px;
+
+              line-height: 30px;
             }
           }
         }
+        &.process {
+          border-top: 1px solid rgba(252, 250, 248, 1);
+          border-bottom: 1px solid rgba(252, 250, 248, 1);
+          background-color: rgba(0, 0, 0, .2);
+          .line {
+            position: absolute;
+            bottom: 184px;
+            left: 0px;
 
+            display: inline-block;
+            width: 100%;
+
+            border: 1px solid rgba(119, 168, 73, 1);
+            
+          }
+          .process {
+            position: relative;
+            display: inline-block;
+            width: $mainWidth;
+            height: 100%;
+
+            margin: 0 auto;
+            text-align: center;
+
+            .title {
+              display: inline-block;
+              width: 100%;
+              margin-top: 50px;
+              font-size: 35px;
+              color: rgba(255, 255, 255, 1);
+            }
+
+            .main_avatar {
+              position: relative;
+              margin: 0 auto;
+              margin-top: 50px;
+
+              display: inline-block;
+              width: 255px;
+              height: 255px;
+              border: 3px solid rgba(119, 168, 73, 1);
+              @include border-radius(50%);
+            }
+            .sub_title {
+              margin-top: 20px;
+              color: rgba(255, 255, 255, 1);
+              font-size: 25px;
+            }
+
+            .icons {
+              margin-top: 80px;
+              margin-bottom: 50px;
+              display: inline-block;
+              width: calc(100% + 200px);
+              margin-left: -100px;
+              text-align: center;
+
+              .icons_container {
+                display: inline-block;
+                margin: 0 auto;
+                @include clearfix();
+
+                .icon {
+                  float: left;
+                  cursor: pointer;
+                  display: inline-block;
+                  width: 150px;
+                  color: rgba(255, 255, 255, 1);
+
+                  @include transition(all .5s);
+
+                  & + .icon {
+                    margin-left: 40px;
+                  }
+
+                  .name {
+                    margin-top: 15px;
+                    font-size: 18px;
+
+                    @include split-left(50px, '.num', '.content');
+
+                    .num, .content {
+                    }
+                    .num {
+                      font-size: 36px;
+                    }
+                    .content {
+                      text-align: left;
+                    }
+                  }
+                  img {
+                    border: 3px solid rgba(119, 168, 73, 1);
+                    @include transition(all .5s);
+                    @include border-radius(50%);
+                  }
+                }
+              }
+            }
+          }
+        }
 
       }
       .footer {
