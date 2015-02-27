@@ -19,6 +19,7 @@ html {
         width: 100%;
         height: $header;
         background-color: rgba(82, 41, 43, 1);
+        z-index: 999;
 
         @include split-left(300px, '.logo', '.items');
 
@@ -89,14 +90,39 @@ html {
         }
       }
       .block {
+        position: relative;
+        display: inline-block;
+        width: 100%;
         border: 1px solid rgba(255, 0, 0, .3);
-        background-color: rgba(170, 170, 170, .2);
+        text-align: center;
+
         & + .block {
           margin-top: 30px;
         }
-
         &.banner {
+          text-align: left;
+          .banners {
+            position: relative;
+            display: inline-block;
 
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              @include opacity(0);
+              @include transition(all .5s);
+
+              &.show {
+                @include opacity(1);
+              }
+            }
+
+            @for $i from 0 through 3 {
+              img:nth-child(#{$i + 1}) {
+                left: 100% * $i;
+              }
+            }
+          }          
         }
       }
       .footer {
@@ -174,6 +200,9 @@ html {
         left: 0;
         top: 0;
         width: 100%;
+        img {
+          width: 100%;
+        }
       }
     }
   }

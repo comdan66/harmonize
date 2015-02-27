@@ -53,6 +53,7 @@ html body .container .header {
   width: 100%;
   height: 180px;
   background-color: #52292b;
+  z-index: 999;
   *zoom: 1;
 }
 html body .container .header:after {
@@ -167,11 +168,48 @@ html body .container .header .items .menu .item:before {
   transition: all 0.3s;
 }
 html body .container .block {
+  position: relative;
+  display: inline-block;
+  width: 100%;
   border: 1px solid rgba(255, 0, 0, 0.3);
-  background-color: rgba(170, 170, 170, 0.2);
+  text-align: center;
 }
 html body .container .block + .block {
   margin-top: 30px;
+}
+html body .container .block.banner {
+  text-align: left;
+}
+html body .container .block.banner .banners {
+  position: relative;
+  display: inline-block;
+}
+html body .container .block.banner .banners img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+html body .container .block.banner .banners img.show {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+html body .container .block.banner .banners img:nth-child(1) {
+  left: 0%;
+}
+html body .container .block.banner .banners img:nth-child(2) {
+  left: 100%;
+}
+html body .container .block.banner .banners img:nth-child(3) {
+  left: 200%;
+}
+html body .container .block.banner .banners img:nth-child(4) {
+  left: 300%;
 }
 html body .container .footer {
   background-color: #52292b;
@@ -252,5 +290,8 @@ html body .container #parallax-bg {
   position: fixed;
   left: 0;
   top: 0;
+  width: 100%;
+}
+html body .container #parallax-bg img {
   width: 100%;
 }
