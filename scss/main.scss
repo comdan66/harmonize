@@ -94,16 +94,16 @@ html {
           }
         }
       }
-      .block {
+      & > .block {
         position: relative;
         display: inline-block;
         width: 100%;
-        border: 1px solid rgba(255, 0, 0, .3);
         text-align: center;
 
         & + .block {
           margin-top: $bnb;
         }
+
         &.banner {
           text-align: left;
           overflow: hidden;
@@ -595,6 +595,279 @@ html {
           }
         }
 
+        &.product {
+          background-color: rgba(89, 89, 89, 1);
+
+          .product {
+            position: relative;
+            display: inline-block;
+            width: $mainWidth;
+            height: 100%;
+
+            margin: 0 auto;
+            text-align: center;
+
+
+            & > .title {
+              margin-top: 60px;
+              font-size: 50px;
+              font-weight: bold;
+              color: rgba(255, 255, 255, 1);
+            }
+            .line {
+              display: inline-block;
+              margin: 0 auto;
+              width: 100px;
+              margin-top: 10px;
+              border-bottom: 3px solid rgba(255, 255, 255, 1);
+            }
+
+
+            .items {
+              margin-top: 60px;
+              display: inline-block;
+              width: 100%;
+              text-align: center;
+
+              .item_container {
+                display: inline-block;
+                margin: 0 auto;
+                @include clearfix();
+
+                .item {
+                  float: left;
+                  cursor: pointer;
+                  display: inline-block;
+                  width: 315px;
+                  color: rgba(255, 255, 255, 1);
+                  @include transition(all .5s);
+
+                  & + .item {
+                    margin-left: 27px;
+                  }
+
+                  img {
+                    width: 315px;
+                    height: 200px;
+                  }
+                  .title {
+                    padding: 10px 15px;
+                    background-color: #fff;
+                    color: rgba(119, 166, 74, 1);
+                    text-align: left;
+                  }
+                  .content {
+                    background-color: #fff;
+                    text-align: left;
+                    padding: 10px 15px;
+                    padding-top: 0;
+                    color: rgba(136, 136, 136, 1);
+                    font-size: 16px;
+                    line-height: 22px;
+                  }
+                  .more {
+                    font-size: 20px;
+                    background-color: rgba(119, 166, 74, 1);
+                    padding: 8px 0;
+                    @include transition(all .5s);
+                    &:hover {
+                      background-color: rgba(73, 36, 37, 1);
+                    }
+                  }
+                }
+              }
+            }
+            .bottom {
+              margin-top: 50px;
+              margin-bottom: 40px;
+              color: rgba(119, 167, 73, 1);
+              @include clearfix();
+
+              .doc {
+                float: right;
+                margin-right: 5px;
+                margin-top: 1px;
+                display: inline-block;
+                font-size: 35px;
+              }
+              .button {
+                float: right;
+                display: inline-block;
+                padding: 5px 45px;
+                text-align: center;
+                font-size: 23px;
+                border: 2px solid rgba(119, 167, 73, 1);
+                cursor: pointer;
+                @include border-radius(50px);
+                @include transition(all .5s);
+
+                &:hover {
+                  color: rgba(255, 255, 255, 1);
+                  border-color: rgba(255, 255, 255, 1);
+                }
+              }
+            }
+          }
+        }
+
+
+        &.contact {
+          margin-top: 0;
+
+          .contact {
+            position: relative;
+            display: inline-block;
+            width: $mainWidth;
+            height: 100%;
+
+            margin: 0 auto;
+            text-align: center;
+
+            & > .title {
+              margin-top: 60px;
+              font-size: 50px;
+              font-weight: bold;
+              color: rgba(255, 255, 255, 1);
+            }
+            & > .line {
+              display: inline-block;
+              margin: 0 auto;
+              width: 100px;
+              margin-top: 10px;
+              border-bottom: 3px solid rgba(255, 255, 255, 1);
+            }
+
+            .infos {
+              margin-top: 70px;
+              margin-bottom: 70px;
+              @include split-left(520px, '.left', '.right');
+
+              .left, .right {
+              }
+              .left {
+                .title1 {
+                  width: 300px;
+                  border-top: 3px solid rgba(119, 166, 74, 1);
+                  padding-top: 20px;
+                  color: rgba(119, 166, 74, 1);
+                  text-align: left;
+                  font-size: 20px;
+                  font-weight: bold;
+                }
+                .content1 {
+                  margin-top: 20px;
+                  text-align: left;
+                  color: rgba(255, 255, 255, .9);
+                  line-height: 22px;
+                  font-size: 16px;
+                  padding-right: 50px;
+                }
+                .title2 {
+                  width: 300px;
+                  margin-top: 80px;
+                  margin-bottom: 13px;
+                  border-top: 3px solid rgba(119, 166, 74, 1);
+                  padding-top: 20px;
+                  color: rgba(119, 166, 74, 1);
+                  text-align: left;
+                  font-size: 20px;
+                  font-weight: bold;
+                }
+                .content2 {
+                  position: relative;
+                  color: rgba(255, 255, 255, .9);
+                  text-align: left;
+                  font-size: 17px;
+                  margin-top: 7px;
+                  padding-left: 20px;
+                  
+                  p {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+                    color: rgba(119, 166, 74, 1);
+                    font-weight: bold;
+                    font-size: 18px;
+                  }
+                }
+              }
+              .right {
+                .line {
+                  border-top: 3px solid rgba(119, 166, 74, 1);
+                  color: rgba(119, 166, 74, 1);
+                  text-align: left;
+                  font-size: 20px;
+                  font-weight: bold;
+
+                  position: relative;
+                  display: block;
+                  margin: 0;
+                  padding: 0;
+                  width: 100%;
+                  height: 0;
+
+                }
+                input[type='text'], textarea {
+                  position: relative;
+                  display: inline-block;
+                  margin: 30px 0 0 0;
+                  padding: 8px;
+                  width: 100%;
+
+                  background-color: $bbg;
+                  border: 1px solid rgba(191, 191, 149, .7);
+                  font-size: 18px;
+                  color: rgba(119, 166, 74, 1);
+
+                  @include transition(all .5s);
+                  @include input-placeholder {
+                    color: rgba(191, 191, 149, .7);
+                  }
+
+                  &:focus {
+                    outline: 0;
+                    border: 1px solid rgba(191, 191, 149, 1);
+                    @include input-placeholder {
+                      color: rgba(191, 191, 149, 1);
+                      @include transition(all .5s);
+                    }
+                  }
+                }
+                textarea {
+                  resize: none;
+                  height: 190px;
+                }
+                .button {
+                  position: relative;
+                  display: block;
+                  width: 100%;
+                  padding: 10px;
+                  margin-top: 30px;
+                  cursor: pointer;
+                  background-color: rgba(119, 167, 73, 1);
+                  border: 0 solid rgba(206, 215, 145, 1);
+                  border-bottom: 3px solid rgba(206, 215, 145, 1);
+                  font-size: 20px;
+                  color: rgba(206, 215, 145, 1);
+                  font-weight: bold;
+                  outline: 0;
+                  @include transition(all .3s);
+
+                  &:active {
+                    padding-top: 13px;
+                    border-bottom: 0 solid rgba(206, 215, 145, 0);
+                  }
+                  &:hover {
+                    background-color: rgba(82, 41, 43, 1);
+                  }
+                }
+              }
+            }
+          }
+        }
       }
       .footer {
         background-color: rgba(82, 41, 43, 1);
