@@ -636,7 +636,6 @@ html {
 
                 .item {
                   float: left;
-                  cursor: pointer;
                   display: inline-block;
                   width: 315px;
                   color: rgba(255, 255, 255, 1);
@@ -668,6 +667,7 @@ html {
                   .more {
                     font-size: 20px;
                     background-color: rgba(119, 166, 74, 1);
+                    cursor: pointer;
                     padding: 8px 0;
                     @include transition(all .5s);
                     &:hover {

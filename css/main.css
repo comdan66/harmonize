@@ -772,7 +772,6 @@ html body .container > .block.product .product .items .item_container:after {
 }
 html body .container > .block.product .product .items .item_container .item {
   float: left;
-  cursor: pointer;
   display: inline-block;
   width: 315px;
   color: white;
@@ -806,6 +805,7 @@ html body .container > .block.product .product .items .item_container .item .con
 html body .container > .block.product .product .items .item_container .item .more {
   font-size: 20px;
   background-color: #77a64a;
+  cursor: pointer;
   padding: 8px 0;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
