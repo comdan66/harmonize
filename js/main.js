@@ -80,6 +80,11 @@ $(function () {
     set_arrow ();
   });
 
+  $('body').on ('click', '.people_more .button', function () {
+    pop_up ('hide');
+    $("html, body").animate ({ scrollTop: $(document).height() }, 1000);
+  });
+
   $('body').on ('click', '.arrow_l img', function () {
     product_index = --product_index < 0 ? 0 : product_index;
 
