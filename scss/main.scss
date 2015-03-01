@@ -12,9 +12,180 @@ $bbg: rgba(0, 0, 0, .4);
 
 html {
   body {
+    position: relative;
     padding-top: $header;
+    
+    .pop_up {
+      position: fixed;
+      top: $header;
+      left: 0;
+      background-color: rgba(0, 0, 0, .85);
+      z-index: 9999;
+      display: none;
+      text-align: center;
+      overflow-y: auto;
 
-    .container {
+      .close, .container {
+        position: relative;
+        display: inline-block;
+        width: 1100px;
+        margin: 0 auto;
+      }
+      .close {
+        text-align: right;
+        z-index: 99999;
+
+        img {
+          cursor: pointer;
+          @include opacity(.8);
+          @include transition(all .5s);
+
+          &:hover {
+            @include opacity(1);
+          }
+        }
+      }
+      .container {
+        color: rgba(255, 255, 255, 1);
+
+        .product_more {
+          padding-bottom: 30px;
+          .banner_bar {
+            height: 675px;
+            @include clearfix();
+
+            .arrow_l, .banner, .arrow_r {
+              position: relative;
+              display: inline-block;
+              float: left;
+              width: 50px;
+              height: 100%;
+            }
+            .arrow_l, .arrow_r {
+              img {
+                margin-top: 290px;
+                cursor: pointer;
+                @include opacity(.6);
+                @include transition(all .5s);
+
+                &:hover {
+                  @include opacity(1);
+                }
+                &.disable {
+                  @include opacity(.2);
+                }
+              }
+            }
+            .banner {
+              width: calc(100% - 100px);
+              overflow: hidden;
+
+              .banners {
+                position: relative;
+                display: inline-block;
+                height: 100%;
+                width: 5 * 1000px;
+                @include clearfix();
+
+                img {
+                  position: absolute;
+                  top: 0;
+                  @include transition(all .5s);
+
+                  @for $i from 0 through 5 {
+                    &:nth-child(#{$i + 1}) {
+                      left: 1000px * $i;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .title {
+            margin: 0 auto;
+            width: 1000px;
+            margin-top: 35px;
+            font-size: 22px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(119, 168, 73, 1);
+            text-align: left;
+          }
+          .content {
+            margin: 0 auto;
+            width: 1000px;
+            text-align: left;
+            margin-top: 25px;
+            font-size: 17px;
+            line-height: 23px;
+          }
+        }
+        .people_more {
+          margin-top: -25px;
+          text-align: center;
+          .img {
+            .avatar {
+              display: inline-block;
+              height: 250px;
+              width: 250px;
+              border: 2px solid rgba(255, 255, 255, 1);
+              padding: 20px;
+              margin: 0 auto;
+              @include border-radius(50%);
+
+              img {
+                @include border-radius(50%);
+              }
+            }
+          }
+          .title {
+            margin-top: 35px;
+            font-size: 22px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(119, 168, 73, 1);
+          }
+          .content {
+            text-align: left;
+            margin-top: 25px;
+            font-size: 17px;
+            line-height: 23px;
+          }
+          .bottom {
+            margin-top: 20px;
+            color: rgba(120, 166, 71, 1);
+            @include clearfix();
+
+            .doc {
+              float: right;
+              margin-right: 15px;
+              margin-top: 1px;
+              display: inline-block;
+              font-size: 35px;
+            }
+            .button {
+              float: right;
+              display: inline-block;
+              padding: 5px 45px;
+              text-align: center;
+              font-size: 23px;
+              border: 1px solid rgba(120, 166, 71, 1);
+              cursor: pointer;
+              @include border-radius(50px);
+              @include transition(all .5s);
+
+              &:hover {
+                color: rgba(255, 255, 255, 1);
+                border-color: rgba(255, 255, 255, 1);
+              }
+            }
+          }
+        }
+      }
+    }
+    & > .container {
+      min-width: $mainWidth + 200px;
+
       .header {
         position: fixed;
         left: 0;
@@ -24,7 +195,7 @@ html {
         height: $header;
         background-color: rgba(82, 41, 43, 1);
         z-index: 999;
-
+        
         @include split-left(300px, '.logo', '.items');
 
         .logo, .items {
