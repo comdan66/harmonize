@@ -46,6 +46,7 @@
 html body {
   position: relative;
   padding-top: 180px;
+  min-width: 1200px;
 }
 html body .pop_up {
   position: fixed;
