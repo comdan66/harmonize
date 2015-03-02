@@ -26,12 +26,12 @@ $(function () {
       $('.banners .banner').map (function (j, t) {
         $(this).css ({'left': (j - (i>1 ? 1 : i)) * w + 'px', 'width': w + 'px'}).addClass ('show');
       });
-    }
+    };
     var loop = function () {
       clearTimeout (timer);
       move (banner_index++);
       timer = setTimeout (loop, 3000);
-    }
+    };
     loop ();
   }).resize ();
 
@@ -47,7 +47,7 @@ $(function () {
       $('body').css('overflow', body_overflow);
       $pop_up.fadeOut ();
     }
-  }
+  };
 
   $('.people .button').click (function () {
     $pop_up.find ('.container').empty ().append ($(_.template ($('#_people_more').html (), {}) ({})));
@@ -69,7 +69,7 @@ $(function () {
     else $('.product_more .arrow_r img').removeClass ('disable');
     if (product_index < 1) $('.product_more .arrow_l img').addClass ('disable');
     else $('.product_more .arrow_l img').removeClass ('disable');
-  }
+  };
 
   $('body').on ('click', '.arrow_r img', function () {
     product_index = ++product_index < $('.product_more .banners img').length ? product_index : $('.product_more .banners img').length - 1;
@@ -93,4 +93,11 @@ $(function () {
     });
     set_arrow ();
   });
+
+  $('.contact form').submit (function () {
+    $('.contact input, .contact textarea').val ('');
+    alert ('您的意見我們已經收到，將盡快與您聯繫。');
+    return false;
+  });
+
 });

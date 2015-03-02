@@ -1207,22 +1207,15 @@ html body > .container > .block.contact .contact .infos .right input[type='text'
 }
 html body > .container > .block.contact .contact .infos .right input[type='text']:focus:-moz-placeholder, html body > .container > .block.contact .contact .infos .right textarea:focus:-moz-placeholder {
   color: #bfbf95;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
 }
 html body > .container > .block.contact .contact .infos .right input[type='text']:focus::-moz-placeholder, html body > .container > .block.contact .contact .infos .right textarea:focus::-moz-placeholder {
   color: #bfbf95;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
 }
 html body > .container > .block.contact .contact .infos .right input[type='text']:focus:-ms-input-placeholder, html body > .container > .block.contact .contact .infos .right textarea:focus:-ms-input-placeholder {
   color: #bfbf95;
-  transition: all 0.5s;
 }
 html body > .container > .block.contact .contact .infos .right input[type='text']:focus::-webkit-input-placeholder, html body > .container > .block.contact .contact .infos .right textarea:focus::-webkit-input-placeholder {
   color: #bfbf95;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 html body > .container > .block.contact .contact .infos .right textarea {
   resize: none;

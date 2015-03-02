@@ -15,7 +15,7 @@ html {
     position: relative;
     padding-top: $header;
     min-width: $mainWidth + 200px;
-    
+
     .pop_up {
       position: fixed;
       top: $header;
@@ -301,7 +301,7 @@ html {
                 left: 100% * $i;
               }
             }
-          }          
+          }
         }
 
         &.wbg {
@@ -530,7 +530,7 @@ html {
                 }
               }
             }
-          }          
+          }
         }
 
         &.dna {
@@ -952,7 +952,7 @@ html {
                   font-size: 17px;
                   margin-top: 7px;
                   padding-left: 20px;
-                  
+
                   p {
                     position: absolute;
                     left: 0;
@@ -1004,7 +1004,6 @@ html {
                     border: 1px solid rgba(191, 191, 149, 1);
                     @include input-placeholder {
                       color: rgba(191, 191, 149, 1);
-                      @include transition(all .5s);
                     }
                   }
                 }

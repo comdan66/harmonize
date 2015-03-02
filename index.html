@@ -64,8 +64,8 @@
           <div class='title'>問 ‧ 寬堂</div>
           <div class='line'></div>
           <div class='info'>
-            延續建築的殼，我們將作更深入且不同角度的思考與對現況的挑戰，為寬堂的客戶提供更好的空間價值與生活品質。<br /> 
-            <br /> 
+            延續建築的殼，我們將作更深入且不同角度的思考與對現況的挑戰，為寬堂的客戶提供更好的空間價值與生活品質。<br />
+            <br />
             在寬堂，我們探究的是，如何為客戶，在實質與感官上，發展出適合個人並呈現更高層次的環境面貌。寬堂所提供的，是從客戶基本且獨特的須求出發，藉由彼此的對話、分享、與觀念的碰撞，注入精準的平面規劃，細部設計與施工方式，重塑並優化客戶的居住環境與質感，以形成一個有別以往的生活空間架構，並能與室內環境作更好的互動後，客戶可再接手發展與經營自己的居家生活。
           </div>
           <div class='icons'>
@@ -243,11 +243,13 @@
               <div class='content2'><b>110<br/>台北市信義區基隆路二段189號12樓</b></div>
             </div>
             <div class='right'>
-              <div class='line'></div>
-              <input type='text' name='name' value='' placeholder='姓名' />
-              <input type='text' name='email' value='' placeholder='電子郵件地址' />
-              <textarea name='comment' placeholder='留言'></textarea>
-              <button type='submit' class='button'>送出</button>
+              <form action=''>
+                <div class='line'></div>
+                <input type='text' name='name' value='' placeholder='姓名' pattern='.{1,}' required title='請輸入姓名!' />
+                <input type='text' name='email' value='' placeholder='電子郵件地址' pattern='.{1,200}' required title='請輸入電子郵件地址!' />
+                <textarea name='comment' placeholder='留言' pattern='.{1, }' required title='請輸入留言!'></textarea>
+                <button type='submit' class='button'>送出</button>
+              </form>
             </div>
           </div>
         </div>
