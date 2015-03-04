@@ -34,6 +34,7 @@ html {
       }
       .close {
         text-align: right;
+        padding: 15px 0 ;
         z-index: 99999;
 
         img {
@@ -118,7 +119,7 @@ html {
             text-align: left;
             margin-top: 25px;
             font-size: 17px;
-            line-height: 23px;
+            line-height: 25px;
           }
         }
         .people_more {
@@ -930,13 +931,13 @@ html {
                   margin-top: 20px;
                   text-align: left;
                   color: rgba(255, 255, 255, .9);
-                  line-height: 22px;
+                  line-height: 24px;
                   font-size: 16px;
                   padding-right: 50px;
                 }
                 .title2 {
                   width: 300px;
-                  margin-top: 80px;
+                  margin-top: 49px;
                   margin-bottom: 13px;
                   border-top: 3px solid rgba(119, 166, 74, 1);
                   padding-top: 20px;
