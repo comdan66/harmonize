@@ -8,6 +8,7 @@ $(function () {
   var body_overflow = $('body').css('overflow');
   var $pop_up = $('.pop_up');
   var product_index = 0;
+  var headerHeight = 180;
 
   $(window).bind ('scroll', function (e) {
     $('#parallax-bg').css ('top', (0 - ($(window).scrollTop () * 0.35)) + 'px');
@@ -42,7 +43,7 @@ $(function () {
   var pop_up = function (action) {
     if ((action == 'show') && !$($pop_up).is (':visible')) {
       $('body').css('overflow', 'hidden');
-      $pop_up.css ({'width': '100%', 'height': 'calc(100% - 180px)'}).fadeIn ();
+      $pop_up.css ({'width': '100%', 'height': 'calc(100% - ' + headerHeight + 'px)'}).fadeIn ();
     } else if ((action == 'hide')) {
       $('body').css('overflow', body_overflow);
       $pop_up.fadeOut ();
@@ -82,7 +83,9 @@ $(function () {
 
   $('body').on ('click', '.people_more .button', function () {
     pop_up ('hide');
-    $("html, body").animate ({ scrollTop: $(document).height() }, 1000);
+    setTimeout (function () {
+      $("html, body").stop ().animate ({ scrollTop: $('.block.contact').offset ().top - headerHeight }, 1000);
+    }, 500);
   });
 
   $('body').on ('click', '.arrow_l img', function () {
@@ -100,4 +103,8 @@ $(function () {
     return false;
   });
 
+  $('.menu .item').click (function () {
+    $("html, body").stop ().animate ({ scrollTop: $('.block.' + $(this).data ('go')).offset ().top - headerHeight }, 1000);
+    // console.error ($(this).data ('go'));
+  });
 });
