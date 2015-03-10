@@ -836,7 +836,7 @@ html body > .container > .block.process {
 }
 html body > .container > .block.process .line {
   position: absolute;
-  bottom: 184px;
+  bottom: 208px;
   left: 0px;
   display: inline-block;
   width: 100%;
