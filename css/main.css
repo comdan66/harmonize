@@ -625,7 +625,7 @@ html body > .container > .block.people .people .infos .title p {
   padding: 0;
   display: inline-block;
   font-size: 50px;
-  margin-top: -15px;
+  margin-top: -12px;
 }
 html body > .container > .block.people .people .infos .info {
   color: white;
@@ -702,7 +702,7 @@ html body > .container > .block.dna .dna .title p {
   padding: 0;
   display: inline-block;
   font-size: 50px;
-  margin-top: -15px;
+  margin-top: -7px;
 }
 html body > .container > .block.dna .dna .infos {
   margin-top: 20px;
