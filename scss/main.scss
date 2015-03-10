@@ -128,9 +128,8 @@ html {
           .img {
             .avatar {
               display: inline-block;
-              height: 250px;
-              width: 250px;
-              border: 2px solid rgba(255, 255, 255, 1);
+              height: 200px;
+              width: 200px;
               padding: 20px;
               margin: 0 auto;
               @include border-radius(50%);
@@ -141,17 +140,17 @@ html {
             }
           }
           .title {
-            margin-top: 35px;
             font-size: 22px;
             font-weight: bold;
-            padding-bottom: 20px;
+            margin-top: 15px;
+            padding-bottom: 15px;
             border-bottom: 1px solid rgba(119, 168, 73, 1);
           }
           .content {
             text-align: left;
-            margin-top: 25px;
-            font-size: 17px;
-            line-height: 23px;
+            margin-top: 18px;
+            font-size: 16px;
+            line-height: 24px;
           }
           .bottom {
             margin-top: 20px;
@@ -217,7 +216,7 @@ html {
           padding-right: 15px;
           .langs {
             font-size: 13px;
-            margin-top: 45px;
+            margin-top: 54px;
             text-align: right;
             @include clearfix();
 
@@ -234,7 +233,7 @@ html {
             }
           }
           .menu {
-            margin-top: 40px;
+            margin-top: 35px;
             @include clearfix();
 
             .item {

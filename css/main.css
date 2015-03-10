@@ -190,9 +190,8 @@ html body .pop_up .container .people_more {
 }
 html body .pop_up .container .people_more .img .avatar {
   display: inline-block;
-  height: 250px;
-  width: 250px;
-  border: 2px solid white;
+  height: 200px;
+  width: 200px;
   padding: 20px;
   margin: 0 auto;
   -moz-border-radius: 50%;
@@ -205,17 +204,17 @@ html body .pop_up .container .people_more .img .avatar img {
   border-radius: 50%;
 }
 html body .pop_up .container .people_more .title {
-  margin-top: 35px;
   font-size: 22px;
   font-weight: bold;
-  padding-bottom: 20px;
+  margin-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #77a849;
 }
 html body .pop_up .container .people_more .content {
   text-align: left;
-  margin-top: 25px;
-  font-size: 17px;
-  line-height: 23px;
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 24px;
 }
 html body .pop_up .container .people_more .bottom {
   margin-top: 20px;
@@ -306,7 +305,7 @@ html body > .container .header .items {
 }
 html body > .container .header .items .langs {
   font-size: 13px;
-  margin-top: 45px;
+  margin-top: 54px;
   text-align: right;
   *zoom: 1;
 }
@@ -339,7 +338,7 @@ html body > .container .header .items .langs a.active {
   border-color: #82b058;
 }
 html body > .container .header .items .menu {
-  margin-top: 40px;
+  margin-top: 35px;
   *zoom: 1;
 }
 html body > .container .header .items .menu:after {
