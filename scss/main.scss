@@ -6,7 +6,7 @@
 @import "_oa";
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
-$header: 180px;
+$header: 150px;
 $bnb: 100px;
 $bbg: rgba(0, 0, 0, .4);
 
@@ -65,7 +65,7 @@ html {
             }
             .arrow_l, .arrow_r {
               img {
-                margin-top: 290px;
+                margin-top: 320px;
                 cursor: pointer;
                 @include opacity(.6);
                 @include transition(all .5s);
@@ -106,8 +106,8 @@ html {
           .title {
             margin: 0 auto;
             width: 1000px;
-            margin-top: 35px;
-            font-size: 22px;
+            margin-top: 25px;
+            font-size: 20px;
             font-weight: bold;
             padding-bottom: 20px;
             border-bottom: 1px solid rgba(119, 168, 73, 1);
@@ -117,8 +117,8 @@ html {
             margin: 0 auto;
             width: 1000px;
             text-align: left;
-            margin-top: 25px;
-            font-size: 17px;
+            margin-top: 15px;
+            font-size: 15px;
             line-height: 25px;
           }
         }
@@ -216,6 +216,7 @@ html {
         .items {
           padding-right: 15px;
           .langs {
+            font-size: 13px;
             margin-top: 45px;
             text-align: right;
             @include clearfix();
@@ -223,7 +224,7 @@ html {
             a {
               float: right;
               padding: 0 10px;
-              margin-left: 10px;
+              margin-left: 7px;
               @include a(rgba(234, 223, 221, 1), rgba(130, 176, 88, 1));
 
               &.active {
@@ -241,7 +242,7 @@ html {
               color: rgba(234, 223, 221, 1);
               margin-left: 25px;
               cursor: pointer;
-              font-size: 18px;
+              font-size: 22px;
               line-height: 21px;
               @include transition(all .3s);
 
@@ -348,7 +349,7 @@ html {
                 width: 100%;
                 margin-top: 50px;
                 color: rgba(252, 250, 248, 1);
-                font-size: 30px;
+                font-size: 26px;
               }
             }
           }
@@ -380,7 +381,7 @@ html {
               width: 100px;
               margin: 0 auto;
               margin-top: 8px;
-              border-bottom: 3px solid rgba(255, 255, 255, 1);
+              border-bottom: 5px solid rgba(255, 255, 255, 1);
             }
             .info {
               color: rgba(255, 255, 255, 1);
@@ -388,7 +389,7 @@ html {
               height: 190px;
               margin-top: 45px;
               font-size: 17px;
-              line-height: 28px;
+              line-height: 26px;
             }
             .icons {
               height: 85px;
@@ -459,7 +460,7 @@ html {
             @include split-left(250px, '.img', '.infos');
             .img, .infos {
               height: 100%;
-              padding-top: 50px;
+              padding-top: 72px;
             }
             .img {
               .avatar {
@@ -480,7 +481,8 @@ html {
               padding-top: 60px;
 
               .title {
-                font-size: 30px;
+                font-size: 40px;
+                font-weight: bold;
                 color: rgba(255, 255, 255, 1);
 
                 p {
@@ -493,17 +495,21 @@ html {
               }
               .info {
                 color: rgba(255, 255, 255, 1);
-                margin-top: 70px;
+                margin-top: 52px;
+
                 &:nth-child(2) {
+                  font-size: 18px;
                   font-weight: bold;
                 }
                 & + .info {
                   margin-top: 10px;
+                  font-size: 16px;
+                  line-height: 25px;
                 }
               }
             }
             .bottom {
-              margin-top: 50px;
+              margin-top: 42px;
               color: rgba(255, 255, 255, 1);
               @include clearfix();
 
@@ -550,7 +556,8 @@ html {
 
             .title {
               margin-top: 60px;
-              font-size: 30px;
+              font-size: 40px;
+              font-weight: bold;
               color: rgba(255, 255, 255, 1);
 
               p {
@@ -568,10 +575,11 @@ html {
               .quote, .info {
               }
               .info {
+                text-align: left;
                 padding-left: 10px;
                 margin-top: 63px;
                 color: rgba(255, 255, 255, 1);
-                font-size: 18px;
+                font-size: 17px;
                 line-height: 26px;
               }
             }
@@ -591,8 +599,8 @@ html {
 
 
             .title {
-              margin-top: 90px;
-              font-size: 50px;
+              margin-top: 75px;
+              font-size: 45px;
               font-weight: bold;
             }
             .line {
@@ -600,10 +608,10 @@ html {
               margin: 0 auto;
               width: 100px;
               margin-top: 10px;
-              border-bottom: 3px solid rgba(0, 0, 0, 1);
+              border-bottom: 5px solid rgba(0, 0, 0, 1);
             }
             .icons {
-              margin-top: 80px;
+              margin-top: 65px;
               margin-bottom: 50px;
               display: inline-block;
               width: 100%;
@@ -635,7 +643,8 @@ html {
                     }
                   }
                   .name {
-                    font-size: 25px;
+                    font-size: 20px;
+                    font-weight: bold;
                   }
                   img {
                     @include border-radius(3px);
@@ -694,8 +703,9 @@ html {
             .title {
               display: inline-block;
               width: 100%;
-              margin-top: 50px;
-              font-size: 35px;
+              margin-top: 55px;
+              font-size: 40px;
+              font-weight: bold;
               color: rgba(255, 255, 255, 1);
             }
 
@@ -717,8 +727,8 @@ html {
             }
 
             .icons {
-              margin-top: 80px;
-              margin-bottom: 50px;
+              margin-top: 65px;
+              margin-bottom: 67px;
               display: inline-block;
               width: calc(100% + 200px);
               margin-left: -100px;
@@ -743,18 +753,20 @@ html {
                   }
 
                   .name {
-                    margin-top: 15px;
-                    font-size: 18px;
+                    margin-top: 25px;
+                    width: 170px;
 
                     @include split-left(50px, '.num', '.content');
 
                     .num, .content {
                     }
                     .num {
-                      font-size: 36px;
+                      font-size: 30px;
                     }
                     .content {
                       text-align: left;
+                      font-size: 15px;
+                      line-height: 20px;
                     }
                   }
                   img {
@@ -783,7 +795,7 @@ html {
 
             & > .title {
               margin-top: 60px;
-              font-size: 50px;
+              font-size: 45px;
               font-weight: bold;
               color: rgba(255, 255, 255, 1);
             }
@@ -792,7 +804,7 @@ html {
               margin: 0 auto;
               width: 100px;
               margin-top: 10px;
-              border-bottom: 3px solid rgba(255, 255, 255, 1);
+              border-bottom: 5px solid rgba(255, 255, 255, 1);
             }
 
 
@@ -898,7 +910,7 @@ html {
 
             & > .title {
               margin-top: 60px;
-              font-size: 50px;
+              font-size: 45px;
               font-weight: bold;
               color: rgba(255, 255, 255, 1);
             }
@@ -907,7 +919,7 @@ html {
               margin: 0 auto;
               width: 100px;
               margin-top: 10px;
-              border-bottom: 3px solid rgba(255, 255, 255, 1);
+              border-bottom: 5px solid rgba(255, 255, 255, 1);
             }
 
             .infos {
@@ -1043,7 +1055,7 @@ html {
       }
       .footer {
         background-color: rgba(82, 41, 43, 1);
-        height: 180px;
+        height: 150px;
         padding: 0 60px;
         @include clearfix();
 
@@ -1054,7 +1066,7 @@ html {
           width: calc(100% - 550px);
 
           .info {
-            margin-top: 90px;
+            margin-top: 76px;
             font-size: 18px;
             color: rgba(255, 246, 248, 1);
           }
@@ -1069,7 +1081,7 @@ html {
             text-align: center;
 
             .icons {
-              margin-top: 65px;
+              margin-top: 48px;
               display: inline-block;
               @include clearfix();
 

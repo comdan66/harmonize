@@ -45,12 +45,12 @@
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 html body {
   position: relative;
-  padding-top: 180px;
+  padding-top: 150px;
   min-width: 1200px;
 }
 html body .pop_up {
   position: fixed;
-  top: 180px;
+  top: 150px;
   left: 0;
   background-color: rgba(0, 0, 0, 0.85);
   z-index: 9999;
@@ -106,7 +106,7 @@ html body .pop_up .container .product_more .banner_bar .arrow_l, html body .pop_
   height: 100%;
 }
 html body .pop_up .container .product_more .banner_bar .arrow_l img, html body .pop_up .container .product_more .banner_bar .arrow_r img {
-  margin-top: 290px;
+  margin-top: 320px;
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
@@ -169,8 +169,8 @@ html body .pop_up .container .product_more .banner_bar .banner .banners img:nth-
 html body .pop_up .container .product_more .title {
   margin: 0 auto;
   width: 1000px;
-  margin-top: 35px;
-  font-size: 22px;
+  margin-top: 25px;
+  font-size: 20px;
   font-weight: bold;
   padding-bottom: 20px;
   border-bottom: 1px solid #77a849;
@@ -180,8 +180,8 @@ html body .pop_up .container .product_more .content {
   margin: 0 auto;
   width: 1000px;
   text-align: left;
-  margin-top: 25px;
-  font-size: 17px;
+  margin-top: 15px;
+  font-size: 15px;
   line-height: 25px;
 }
 html body .pop_up .container .people_more {
@@ -264,7 +264,7 @@ html body > .container .header {
   top: 0;
   display: inline-block;
   width: 100%;
-  height: 180px;
+  height: 150px;
   background-color: #52292b;
   z-index: 999;
   *zoom: 1;
@@ -305,6 +305,7 @@ html body > .container .header .items {
   padding-right: 15px;
 }
 html body > .container .header .items .langs {
+  font-size: 13px;
   margin-top: 45px;
   text-align: right;
   *zoom: 1;
@@ -318,7 +319,7 @@ html body > .container .header .items .langs:after {
 html body > .container .header .items .langs a {
   float: right;
   padding: 0 10px;
-  margin-left: 10px;
+  margin-left: 7px;
   display: inline-block;
   color: #eadfdd;
   font-weight: bold;
@@ -352,7 +353,7 @@ html body > .container .header .items .menu .item {
   color: #eadfdd;
   margin-left: 25px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 21px;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -467,7 +468,7 @@ html body > .container > .block.wbg .info .wbg .sub_title {
   width: 100%;
   margin-top: 50px;
   color: #fcfaf8;
-  font-size: 30px;
+  font-size: 26px;
 }
 html body > .container > .block.ask {
   height: 530px;
@@ -494,7 +495,7 @@ html body > .container > .block.ask .ask .line {
   width: 100px;
   margin: 0 auto;
   margin-top: 8px;
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
 }
 html body > .container > .block.ask .ask .info {
   color: white;
@@ -502,7 +503,7 @@ html body > .container > .block.ask .ask .info {
   height: 190px;
   margin-top: 45px;
   font-size: 17px;
-  line-height: 28px;
+  line-height: 26px;
 }
 html body > .container > .block.ask .ask .icons {
   height: 85px;
@@ -594,7 +595,7 @@ html body > .container > .block.people .people .infos {
 }
 html body > .container > .block.people .people .img, html body > .container > .block.people .people .infos {
   height: 100%;
-  padding-top: 50px;
+  padding-top: 72px;
 }
 html body > .container > .block.people .people .img .avatar {
   height: 250px;
@@ -616,7 +617,8 @@ html body > .container > .block.people .people .infos {
   padding-top: 60px;
 }
 html body > .container > .block.people .people .infos .title {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
   color: white;
 }
 html body > .container > .block.people .people .infos .title p {
@@ -628,16 +630,19 @@ html body > .container > .block.people .people .infos .title p {
 }
 html body > .container > .block.people .people .infos .info {
   color: white;
-  margin-top: 70px;
+  margin-top: 52px;
 }
 html body > .container > .block.people .people .infos .info:nth-child(2) {
+  font-size: 18px;
   font-weight: bold;
 }
 html body > .container > .block.people .people .infos .info + .info {
   margin-top: 10px;
+  font-size: 16px;
+  line-height: 25px;
 }
 html body > .container > .block.people .people .bottom {
-  margin-top: 50px;
+  margin-top: 42px;
   color: white;
   *zoom: 1;
 }
@@ -689,7 +694,8 @@ html body > .container > .block.dna .dna {
 }
 html body > .container > .block.dna .dna .title {
   margin-top: 60px;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
   color: white;
 }
 html body > .container > .block.dna .dna .title p {
@@ -724,10 +730,11 @@ html body > .container > .block.dna .dna .infos .info {
   width: calc(100% - 90px);
 }
 html body > .container > .block.dna .dna .infos .info {
+  text-align: left;
   padding-left: 10px;
   margin-top: 63px;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 26px;
 }
 html body > .container > .block.service {
@@ -742,8 +749,8 @@ html body > .container > .block.service .service {
   text-align: center;
 }
 html body > .container > .block.service .service .title {
-  margin-top: 90px;
-  font-size: 50px;
+  margin-top: 75px;
+  font-size: 45px;
   font-weight: bold;
 }
 html body > .container > .block.service .service .line {
@@ -751,10 +758,10 @@ html body > .container > .block.service .service .line {
   margin: 0 auto;
   width: 100px;
   margin-top: 10px;
-  border-bottom: 3px solid black;
+  border-bottom: 5px solid black;
 }
 html body > .container > .block.service .service .icons {
-  margin-top: 80px;
+  margin-top: 65px;
   margin-bottom: 50px;
   display: inline-block;
   width: 100%;
@@ -792,7 +799,8 @@ html body > .container > .block.service .service .icons .icons_container .icon.s
   background-color: #462321;
 }
 html body > .container > .block.service .service .icons .icons_container .icon .name {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
 }
 html body > .container > .block.service .service .icons .icons_container .icon img {
   -moz-border-radius: 3px;
@@ -846,8 +854,9 @@ html body > .container > .block.process .process {
 html body > .container > .block.process .process .title {
   display: inline-block;
   width: 100%;
-  margin-top: 50px;
-  font-size: 35px;
+  margin-top: 55px;
+  font-size: 40px;
+  font-weight: bold;
   color: white;
 }
 html body > .container > .block.process .process .main_avatar {
@@ -868,8 +877,8 @@ html body > .container > .block.process .process .sub_title {
   font-size: 25px;
 }
 html body > .container > .block.process .process .icons {
-  margin-top: 80px;
-  margin-bottom: 50px;
+  margin-top: 65px;
+  margin-bottom: 67px;
   display: inline-block;
   width: calc(100% + 200px);
   margin-left: -100px;
@@ -901,8 +910,8 @@ html body > .container > .block.process .process .icons .icons_container .icon +
   margin-left: 40px;
 }
 html body > .container > .block.process .process .icons .icons_container .icon .name {
-  margin-top: 15px;
-  font-size: 18px;
+  margin-top: 25px;
+  width: 170px;
   *zoom: 1;
 }
 html body > .container > .block.process .process .icons .icons_container .icon .name:after {
@@ -926,10 +935,12 @@ html body > .container > .block.process .process .icons .icons_container .icon .
   width: calc(100% - 50px);
 }
 html body > .container > .block.process .process .icons .icons_container .icon .name .num {
-  font-size: 36px;
+  font-size: 30px;
 }
 html body > .container > .block.process .process .icons .icons_container .icon .name .content {
   text-align: left;
+  font-size: 15px;
+  line-height: 20px;
 }
 html body > .container > .block.process .process .icons .icons_container .icon img {
   border: 3px solid #77a849;
@@ -954,7 +965,7 @@ html body > .container > .block.product .product {
 }
 html body > .container > .block.product .product > .title {
   margin-top: 60px;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
@@ -963,7 +974,7 @@ html body > .container > .block.product .product .line {
   margin: 0 auto;
   width: 100px;
   margin-top: 10px;
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
 }
 html body > .container > .block.product .product .items {
   margin-top: 60px;
@@ -1079,7 +1090,7 @@ html body > .container > .block.contact .contact {
 }
 html body > .container > .block.contact .contact > .title {
   margin-top: 60px;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
@@ -1088,7 +1099,7 @@ html body > .container > .block.contact .contact > .line {
   margin: 0 auto;
   width: 100px;
   margin-top: 10px;
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
 }
 html body > .container > .block.contact .contact .infos {
   margin-top: 70px;
@@ -1250,7 +1261,7 @@ html body > .container > .block.contact .contact .infos .right .button:hover {
 }
 html body > .container .footer {
   background-color: #52292b;
-  height: 180px;
+  height: 150px;
   padding: 0 60px;
   *zoom: 1;
 }
@@ -1267,7 +1278,7 @@ html body > .container .footer .item {
   width: calc(100% - 550px);
 }
 html body > .container .footer .item .info {
-  margin-top: 90px;
+  margin-top: 76px;
   font-size: 18px;
   color: #fff6f8;
 }
@@ -1280,7 +1291,7 @@ html body > .container .footer .item:last-child {
   text-align: center;
 }
 html body > .container .footer .item:last-child .icons {
-  margin-top: 65px;
+  margin-top: 48px;
   display: inline-block;
   *zoom: 1;
 }

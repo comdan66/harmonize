@@ -16,7 +16,7 @@ $(function () {
   var body_overflow = $('body').css('overflow');
   var $pop_up = $('.pop_up');
   var product_index = 0;
-  var headerHeight = 180;
+  var headerHeight = 150;
 
   $(window).bind ('scroll', function (e) {
     $('#parallax-bg').css ('top', (0 - ($(window).scrollTop () * 0.35)) + 'px');
@@ -39,7 +39,7 @@ $(function () {
     var loop = function () {
       clearTimeout (timer);
       move (banner_index++);
-      timer = setTimeout (loop, 3000);
+      timer = setTimeout (loop, 5000);
     };
     loop ();
   }).resize ();
