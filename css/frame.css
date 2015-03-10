@@ -50,6 +50,7 @@
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
+  font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
 }
 *::-moz-selection {
   color: #edeff4;
@@ -76,7 +77,6 @@ html body {
   width: 100%;
   height: 100%;
   font-size: medium;
-  font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
   background: #e9eaed;
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
