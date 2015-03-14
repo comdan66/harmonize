@@ -16,7 +16,7 @@ $(function () {
   var body_overflow = $('body').css('overflow');
   var $pop_up = $('.pop_up');
   var product_index = 0;
-  var headerHeight = 150;
+  var headerHeight = 130;
 
   $(window).bind ('scroll', function (e) {
     $('#parallax-bg').css ('top', (0 - ($(window).scrollTop () * 0.35)) + 'px');
