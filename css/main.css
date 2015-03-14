@@ -46,12 +46,12 @@
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 html body {
   position: relative;
-  padding-top: 150px;
+  padding-top: 130px;
   min-width: 1200px;
 }
 html body .pop_up {
   position: fixed;
-  top: 150px;
+  top: 130px;
   left: 0;
   background-color: rgba(0, 0, 0, 0.85);
   z-index: 9999;
@@ -264,7 +264,7 @@ html body > .container .header {
   top: 0;
   display: inline-block;
   width: 100%;
-  height: 150px;
+  height: 130px;
   background-color: #52292b;
   z-index: 999;
   *zoom: 1;
@@ -290,7 +290,7 @@ html body > .container .header .items {
   width: calc(100% - 300px);
 }
 html body > .container .header .logo, html body > .container .header .items {
-  height: 125px;
+  height: 100px;
 }
 html body > .container .header .logo {
   position: relative;
@@ -306,7 +306,7 @@ html body > .container .header .items {
 }
 html body > .container .header .items .langs {
   font-size: 13px;
-  margin-top: 54px;
+  margin-top: 25px;
   text-align: right;
   *zoom: 1;
 }
@@ -353,7 +353,8 @@ html body > .container .header .items .menu .item {
   color: #eadfdd;
   margin-left: 25px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: bold;
   line-height: 21px;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -625,8 +626,8 @@ html body > .container > .block.people .people .infos .title p {
   margin: 0;
   padding: 0;
   display: inline-block;
-  font-size: 50px;
-  margin-top: -12px;
+  font-size: 60px;
+  margin-top: -20px;
 }
 html body > .container > .block.people .people .infos .info {
   color: white;
@@ -702,8 +703,8 @@ html body > .container > .block.dna .dna .title p {
   margin: 0;
   padding: 0;
   display: inline-block;
-  font-size: 50px;
-  margin-top: -7px;
+  font-size: 60px;
+  margin-top: -15px;
 }
 html body > .container > .block.dna .dna .infos {
   margin-top: 20px;
@@ -1262,7 +1263,7 @@ html body > .container > .block.contact .contact .infos .right .button:hover {
 }
 html body > .container .footer {
   background-color: #52292b;
-  height: 150px;
+  height: 130px;
   padding: 0 60px;
   *zoom: 1;
 }
@@ -1279,7 +1280,7 @@ html body > .container .footer .item {
   width: calc(100% - 550px);
 }
 html body > .container .footer .item .info {
-  margin-top: 76px;
+  margin-top: 59px;
   font-size: 18px;
   color: #fff6f8;
 }
@@ -1292,7 +1293,7 @@ html body > .container .footer .item:last-child {
   text-align: center;
 }
 html body > .container .footer .item:last-child .icons {
-  margin-top: 48px;
+  margin-top: 37px;
   display: inline-block;
   *zoom: 1;
 }
