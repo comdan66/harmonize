@@ -870,6 +870,8 @@ html body > .container > .block.service .info .info_container {
   line-height: 30px;
 }
 html body > .container > .block.process {
+  width: 100%;
+  height: auto;
   border-top: 1px solid #fcfaf8;
   border-bottom: 1px solid #fcfaf8;
   background-color: rgba(0, 0, 0, 0.4);
