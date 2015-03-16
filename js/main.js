@@ -11,6 +11,10 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-46121102-10', 'auto');
 ga('send', 'pageview');
 
+document.oncontextmenu = function () { return false; }
+document.onselectstart = function () { return false; }
+document.onmousedown = function () { return false; }
+
 $(function () {
   var timer = null, banner_index = 0;
   var body_overflow = $('body').css('overflow');
