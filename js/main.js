@@ -119,4 +119,7 @@ $(function () {
     if ($(this).data ('go'))
       $("html, body").stop ().animate ({ scrollTop: $('.block.' + $(this).data ('go')).offset ().top - headerHeight }, 1000);
   });
+
+  $('.process .line').css ({'top': $('.process .icons_container').offset ().top - $('.block.process').offset ().top + 78 + 'px'});
+
 });

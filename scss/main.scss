@@ -727,9 +727,11 @@ html {
           border-top: 1px solid rgba(252, 250, 248, 1);
           border-bottom: 1px solid rgba(252, 250, 248, 1);
           background-color: $bbg;
+          height: 851px;
+
           .line {
             position: absolute;
-            bottom: 208px;
+            top: 620px;
             left: 0px;
 
             display: inline-block;
@@ -771,6 +773,7 @@ html {
               margin-top: 20px;
               color: rgba(255, 255, 255, 1);
               font-size: 25px;
+              height: 30px;
             }
 
             .icons {
@@ -812,7 +815,7 @@ html {
                     }
                     .content {
                       text-align: left;
-                      font-size: 15px;
+                      font-size: 14px;
                       line-height: 20px;
                     }
                   }

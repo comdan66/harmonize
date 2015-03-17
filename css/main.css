@@ -875,10 +875,11 @@ html body > .container > .block.process {
   border-top: 1px solid #fcfaf8;
   border-bottom: 1px solid #fcfaf8;
   background-color: rgba(0, 0, 0, 0.4);
+  height: 851px;
 }
 html body > .container > .block.process .line {
   position: absolute;
-  bottom: 208px;
+  top: 620px;
   left: 0px;
   display: inline-block;
   width: 100%;
@@ -916,6 +917,7 @@ html body > .container > .block.process .process .sub_title {
   margin-top: 20px;
   color: white;
   font-size: 25px;
+  height: 30px;
 }
 html body > .container > .block.process .process .icons {
   margin-top: 65px;
@@ -980,7 +982,7 @@ html body > .container > .block.process .process .icons .icons_container .icon .
 }
 html body > .container > .block.process .process .icons .icons_container .icon .name .content {
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 20px;
 }
 html body > .container > .block.process .process .icons .icons_container .icon img {
