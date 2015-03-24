@@ -1067,6 +1067,7 @@ html body > .container > .block.product .product .items .item_container .item .c
   color: #888888;
   font-size: 16px;
   line-height: 22px;
+  height: 165px;
 }
 html body > .container > .block.product .product .items .item_container .item .more {
   font-size: 20px;
