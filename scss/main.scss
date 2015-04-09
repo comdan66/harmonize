@@ -492,7 +492,7 @@ html {
         }
 
         &.people {
-          height: 425px;
+          height: 430px;
           background-color: rgba(119, 168, 73, 1);
 
           .people {
@@ -506,7 +506,7 @@ html {
             @include split-left(250px, '.img', '.infos');
             .img, .infos {
               height: 100%;
-              padding-top: 83px;
+              padding-top: 90px;
             }
             .img {
               .avatar {
@@ -524,7 +524,7 @@ html {
             .infos {
               text-align: left;
               padding-left: 135px;
-              padding-top: 60px;
+              padding-top: 85px;
 
               .title {
                 font-size: 40px;
@@ -541,7 +541,7 @@ html {
               }
               .info {
                 color: rgba(255, 255, 255, 1);
-                margin-top: 52px;
+                margin-top: 40px;
 
                 &:nth-child(2) {
                   font-size: 18px;
@@ -555,7 +555,7 @@ html {
               }
             }
             .bottom {
-              margin-top: 42px;
+              margin-top: 25px;
               color: rgba(255, 255, 255, 1);
               @include clearfix();
 
