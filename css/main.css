@@ -1124,6 +1124,14 @@ html body > .container > .block.product .product .bottom .button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+html body > .container > .block.product .product .bottom .button a {
+  color: #77a749;
+  text-decoration: none;
+}
+html body > .container > .block.product .product .bottom .button a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 html body > .container > .block.product .product .bottom .button:hover {
   color: white;
   border-color: white;
