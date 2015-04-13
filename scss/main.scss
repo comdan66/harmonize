@@ -310,6 +310,15 @@ html {
                 @include opacity(0);
                 @include transition(all .3s);
               }
+
+              a {
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                  text-decoration: none;
+                }
+              }
             }
           }
         }
@@ -492,7 +501,7 @@ html {
         }
 
         &.people {
-          height: 430px;
+          height: 470px;
           background-color: rgba(119, 168, 73, 1);
 
           .people {
