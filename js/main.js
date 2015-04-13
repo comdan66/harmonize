@@ -11,6 +11,10 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-46121102-10', 'auto');
 ga('send', 'pageview');
 
+ga('create', 'UA-61832444-1', 'auto', {'name': 'newTracker'});
+ga('newTracker.send','pageview');
+
+
 document.oncontextmenu = function () { return false; }
 document.onselectstart = function () { return false; }
 document.onmousedown = function () { return false; }
