@@ -15,10 +15,6 @@ ga('create', 'UA-61832444-1', 'auto', {'name': 'newTracker'});
 ga('newTracker.send','pageview');
 
 
-document.oncontextmenu = function () { return false; }
-document.onselectstart = function () { return false; }
-document.onmousedown = function () { return false; }
-
 $(function () {
   var timer = null, banner_index = 0;
   var body_overflow = $('body').css('overflow');
@@ -127,3 +123,7 @@ $(function () {
   $('.process .line').css ({'top': $('.process .icons_container').offset ().top - $('.block.process').offset ().top + 78 + 'px'});
 
 });
+
+document.oncontextmenu = function () { return false; }
+document.onselectstart = function () { return false; }
+document.onmousedown = function (e) { if (e.button == 2) return false; }
