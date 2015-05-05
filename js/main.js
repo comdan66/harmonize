@@ -110,8 +110,20 @@ $(function () {
   });
 
   $('.contact form').submit (function () {
+    
+    $.ajax ({
+      url: 'send.php',
+      data: { name: $('#_name').val (), email: $('#_email').val (), comment: $('#_comment').val () },
+      async: true, cache: false, dataType: 'json', type: 'POST',
+      beforeSend: function () {}
+    })
+    .done (function (result) { })
+    .fail (function (result) { })
+    .complete (function (result) { });
+
     $('.contact input, .contact textarea').val ('');
     alert ('您的意見我們已經收到，將盡快與您聯繫。');
+
     return false;
   });
 
