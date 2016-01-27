@@ -110,7 +110,6 @@ $(function () {
   });
 
   $('.contact form').submit (function () {
-    
     $.ajax ({
       url: 'send.php',
       data: { name: $('#_name').val (), email: $('#_email').val (), comment: $('#_comment').val () },
@@ -122,11 +121,13 @@ $(function () {
     .complete (function (result) { });
 
     $('.contact input, .contact textarea').val ('');
-    alert ('您的意見我們已經收到，將盡快與您聯繫。');
 
+    $pop_up.find ('.container').empty ().append ($(_.template ($('#_thanks').html (), {}) ({})));
+    pop_up ('show');
     return false;
   });
 
+    
   $('.menu .item').click (function () {
     if ($(this).data ('go'))
       $("html, body").stop ().animate ({ scrollTop: $('.block.' + $(this).data ('go')).offset ().top - headerHeight }, 1000);
