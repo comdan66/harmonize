@@ -30,6 +30,8 @@ $(function () {
     var move = function (i) {
       var w = $('body > .container').width ();
       var h = (w / 1200) * 572;
+      console.error (w);
+      
       $('.banners').css ({'width': w * $('.banners .banner').length + 'px', 'height': h + 'px'});
       if (i>1) {
         var $temp = $('.banners .banner').first ().clone ();
