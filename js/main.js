@@ -30,7 +30,6 @@ $(function () {
     var move = function (i) {
       var w = $('body > .container').width ();
       var h = (w / 1200) * 572;
-      console.error (w);
       
       $('.banners').css ({'width': w * $('.banners .banner').length + 'px', 'height': h + 'px'});
       if (i>1) {
@@ -130,10 +129,23 @@ $(function () {
   });
 
     
+  
   $('.menu .item').click (function () {
     if ($(this).data ('go'))
       $("html, body").stop ().animate ({ scrollTop: $('.block.' + $(this).data ('go')).offset ().top - headerHeight }, 1000);
   });
+
+  var hash = window.location.hash.trim ().slice (1);
+  if (hash.length) {
+    console.error (hash);
+    
+    if ($('.block.' + hash).length)
+      $("html, body").stop ().animate ({ scrollTop: $('.block.' + hash).offset ().top - headerHeight }, 1000);
+  }
+  window.onhashchange = function () {
+    location.reload ();
+  };
+
 
   $('.process .line').css ({'top': $('.process .icons_container').offset ().top - $('.block.process').offset ().top + 78 + 'px'});
 
