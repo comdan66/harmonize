@@ -137,13 +137,13 @@ $(function () {
 
   var hash = window.location.hash.trim ().slice (1);
   if (hash.length) {
-    console.error (hash);
-    
-    if ($('.block.' + hash).length)
-      $("html, body").stop ().animate ({ scrollTop: $('.block.' + hash).offset ().top - headerHeight }, 1000);
+    if ($('.block.' + hash).length) {
+      setTimeout (function () {
+        $("html, body").stop ().animate ({ scrollTop: $('.block.' + hash).offset ().top - headerHeight }, 1000);
+      }, 500);
+    }
   }
   window.onhashchange = function () {
-    location.reload ();
   };
 
 
@@ -151,6 +151,6 @@ $(function () {
 
 });
 
-document.oncontextmenu = function () { return false; }
-document.onselectstart = function () { return false; }
-document.onmousedown = function (e) { if (e.button == 2) return false; }
+document.oncontextmenu = function () { return false; };
+document.onselectstart = function () { return false; };
+document.onmousedown = function (e) { if (e.button == 2) return false; };
