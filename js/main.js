@@ -79,16 +79,16 @@ $(function () {
   });
 
   var set_arrow = function () {
-    if ((product_index + 1) >= $('.product_more .banners img').length) $('.product_more .arrow_r img').addClass ('disable');
+    if ((product_index + 1) >= $('.product_more .banners .item').length) $('.product_more .arrow_r img').addClass ('disable');
     else $('.product_more .arrow_r img').removeClass ('disable');
     if (product_index < 1) $('.product_more .arrow_l img').addClass ('disable');
     else $('.product_more .arrow_l img').removeClass ('disable');
   };
 
   $('body').on ('click', '.arrow_r img', function () {
-    product_index = ++product_index < $('.product_more .banners img').length ? product_index : $('.product_more .banners img').length - 1;
+    product_index = ++product_index < $('.product_more .banners .item').length ? product_index : $('.product_more .banners .item').length - 1;
 
-    $('.product_more .banners img').map (function (j, t) {
+    $('.product_more .banners .item').map (function (j, t) {
       $(this).css ({'left': (j - product_index) * $(this).width () + 'px'});
     });
     set_arrow ();
@@ -104,7 +104,7 @@ $(function () {
   $('body').on ('click', '.arrow_l img', function () {
     product_index = --product_index < 0 ? 0 : product_index;
 
-    $('.product_more .banners img').map (function (j, t) {
+    $('.product_more .banners .item').map (function (j, t) {
       $(this).css ({'left': (j - product_index) * $(this).width () + 'px'});
     });
     set_arrow ();

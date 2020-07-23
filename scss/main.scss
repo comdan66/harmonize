@@ -90,9 +90,11 @@ html {
                 width: 5 * 1000px;
                 @include clearfix();
 
-                img {
+                .item {
                   position: absolute;
                   top: 0;
+                  width: 1000px;
+                  height: 610px;
                   @include transition(all .5s);
 
                   @for $i from 0 through 5 {
