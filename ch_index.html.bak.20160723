@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>寬堂空間設計 Harmoniz Design</title>
+    <link rel="chitorch icon" href="img/gicon.ico" />
+
+    <meta content="寬堂" name="description">
+    <meta content="空間的規劃與設計、新居裝修、舊屋翻新、客廳設計、廚房、餐廳設計、浴室設計、工程監造、專案管理、現代、自然、美式、北歐與簡約風格、美感與舒適、強調功能、輕易維修" name="keywords">
+
+    <link href="css/frame.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <script src="res/jquery_v1.10.2/jquery-1.10.2.min.js" language="javascript" type="text/javascript"></script>
+    <script src="res/underscore_v1.7.0/underscore-min.js" language="javascript" type="text/javascript"></script>
+    <script src="js/main.js" language="javascript" type="text/javascript"></script>
+
+<!-- Google Tracking Code -->    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76188749-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>    
+<!-- End Google Tracking Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '534309880082626');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=534309880082626&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+  </head>
+  <body lang="zh-tw">
+
+    <div class='pop_up'>
+      <div class='close'>
+        <img src='img/x.png' />
+      </div>
+      <div class='container'></div>
+    </div>
+
+    <div class='container'>
+      <div class='header'>
+        <div class='logo'>
+          <img src='img/tw/logo.png' width='250px' height='65px'/>
+        </div>
+        <div class='items'>
+          <div class='langs'>
+            <a href='index.html' class='ef'>EN</a>
+            <a href='ch_index.html' class='cactive'>繁中</a>
+          </div>
+          <div class='menu'>
+            <div class='item' ><a href='http://harmonizewiifm.blogspot.tw/' target='_blank'>寬宅講堂</a></div>
+            <div class='item' data-go='contact'>聯絡我們</div>
+            <div class='item' data-go='product'>近期作品</div>
+            <div class='item' data-go='service'>服務內容</div>
+            <div class='item' data-go='ask'>關於寬堂</div>
+            <div class='item' data-go='banner'>首   頁</div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block banner'>
+        <div class='banners'>
+          <img class='banner' src='img/tw/banner_00.jpg' />
+          <img class='banner' src='img/tw/banner_01.jpg' />
+          <img class='banner' src='img/tw/banner_02.jpg' />
+          <img class='banner' src='img/tw/banner_03.jpg' />
+        </div>
+      </div>
+
+      <div class='block wbg'>
+        <img class='wbg' src='img/wbg.png' />
+        <div class='info'>
+          <div class='wbg'>
+            <div class='main_title'>WELCOME! GET EVERYTHING YOU NEED <p> & </p>CREATE AN UNIQUE HOME</div>
+            <div class='sub_title'>Find out who we are and what we can do for you.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block ask'>
+        <div class='ask'>
+          <div class='title'>問 ‧ 寬堂</div>
+          <div class='line'></div>
+          <div class='info'>
+            延續建築的殼，針對不同的客戶，我們將客製並展現其各自的獨特性。<br />
+            <br />
+            我們認為的獨特性：室內空間必須是一個好的生活容器，是自我的投射。而對於一個住宅內，所有空間相互之間的關係，應如同建築師路易斯‧康（Louis Kahn）所闡述的：住宅平面是數個房間所形成的社區(A plan is a society of rooms)。
+            在規劃時，我們不採用任何置入性的風格；極力地將室內空間打開，提高通透度；引入適合的自然光，並營造均質的光線；強調簡單的線條，以降低視覺上的雜亂度；運用表面材料質感及紋路的變化，提高視覺的豐富感。如此，物件與空間的形體能更加顯著，並呈現安靜、簡單及低承載的空間組合，使各個生活機能之間，能更緊密的連結。針對不同的室內設計，必須一開始就選擇與其風格相互搭配的傢俱及燈飾，同時須考慮其置放的位置，使他們如同藝術品般的被陳列出來，而成為空間的一部份。
+            <br /><br />
+            最後，必須有適度的裝飾，以提高住宅的親切感。
+          </div>
+          <div class='icons'>
+            <div class='icons_container'>
+              <div class='icon'><div>探索當代的設計語彙</div></div>
+              <div class='icon'><div>呈現個人的獨特風格</div></div>
+              <div class='icon'><div>專屬設計師高度關注</div></div>
+              <div class='icon'><div>比完整還更多的服務</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block people'>
+        <div class='people'>
+          <div class='img'>
+            <div class='avatar'>
+              <img src='img/pepic.png' />
+            </div>
+          </div>
+          <div class='infos'>
+            <div class='title'>寬堂 ‧ <p>人</p></div>
+            <div class='info'>朱慶煌 主持人</div>
+            <div class='info'>美國建築師協會會員及註冊建築師，長春藤盟校賓夕凡尼亞大學建築研究所碩士，現任淡江大學建築系講師。</div>
+            <div class='info'>自1994年從事設計工作至今，曾任職於美國加州舊金山Anshen and Allen Architects總部及McCall Design Group，台灣潤德室內設計及Steven Leach Group。專長於住宅、商業空間及辦公室設計施工。</div>
+            <div class='bottom'>
+              <div class='button'>更多</div>
+              <div class='doc'>‧ ‧ ‧</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block dna'>
+        <div class='dna'>
+          <div class='title'>寬堂 ‧ <p>DNA</p></div>
+          <div class='infos'>
+            <div class='quote'>
+              <img src='img/md.png' />
+            </div>
+            <div class='info'><i>設計空間是須要專注的。我們專注的第一件事，是希望客戶於我們所呈現的作品之中，可以感受到什麼？是愉悅、是驚喜、是自我連繫。然後開始構思與打造設計意圖。不斷的回到初衷，只為了一個最好的定案。為了接近完美，為了豐富生活面貌，我們甚至必須重新開始，直到能感動並提升客戶的生活層次後，我們才會為這樣的作品背書。</i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block service'>
+        <div class='service'>
+          <div class='title'>服務內容</div>
+          <div class='line'></div>
+          <div class='icons'>
+            <div class='icons_container'>
+              <div class='icon' data-info='為了能契合客戶的特殊須求與功能，透過意象的模擬與初步平面的規劃，以作為共同默契與討論基礎。'>
+                <div class='name'>概念探討</div>
+                <img src='img/sicon01.png' />
+              </div>
+              <div class='icon' data-info='集合共同期望的特色與功能，經由設計者投入其經驗與專業知識，準確的呈現於解說圖面。透過圖說的詮釋，繪製出整套施工圖說與整體施工預算。'>
+                <div class='name'>設計規劃</div>
+                <img src='img/sicon02.png' />
+              </div>
+              <div class='icon' data-info='每日工程監造、定期回報與前置規劃，作為提高施工品質並管控施作進度的管理方式，並確保工程能和諧進行，減少衝突與如期完成。'>
+                <div class='name'>施工管控</div>
+                <img src='img/sicon03.png' />
+              </div>
+              <div class='icon' data-info='有效率的提案，執著於創造更貼切的使用經驗。一次到位的方案選擇，反應實際的須求，享受專案服務的過程才是優先考量。'>
+                <div class='name'>更多價值</div>
+                <img src='img/sicon04.png' />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='info'><div class='info_container'></div></div>
+      </div>
+
+      <div class='block process'>
+        <div class='line'></div>
+        <div class='process'>
+          <div class='title'>工作流程</div>
+          <img class='main_avatar' src='img/wb01.png' />
+          <div class='sub_title'>一切開始於和設計師的對話</div>
+          <div class='icons'>
+            <div class='icons_container'>
+              <div class='icon'>
+                <img src='img/wb02.png' />
+                <div class='name'>
+                  <div class='num'>1</div>
+                  <div class='content'>空間想像<br/>與模擬</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb03.jpg' />
+                <div class='name'>
+                  <div class='num'>2</div>
+                  <div class='content'>設計發展<br/>與討論</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb04.jpg' />
+                <div class='name'>
+                  <div class='num'>3</div>
+                  <div class='content'>預算編列<br/>與調整</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb05.jpg' />
+                <div class='name'>
+                  <div class='num'>4</div>
+                  <div class='content'>施工監造<br/>與管理</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb06.png' />
+                <div class='name'>
+                  <div class='num'>5</div>
+                  <div class='content'>完工與<br/>缺失改善</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb07.png' />
+                <div class='name'>
+                  <div class='num'>6</div>
+                  <div class='content'>作品拍照<br/>與喬遷</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block dna'>
+        <div class='dna'>
+          <div class='title' style='margin-top: 65px;'>工作內容</div>
+          <div class='infos'>
+            <div class='quote'>
+            </div>
+            <div class='info' style='margin-top: 42px;'>以居家住宅為主要範圍，從室內設計到工程施工，我們提供一個全方位統包的工作內容。內容包含：空間的規劃與設計、新居裝修、舊屋翻新、客廳設計、廚房及餐廳設計、浴室設計、工程監造及專案管理。設計走向涵蓋與混合了現代、自然、美式、北歐與簡約風格。我們致力於創造一個美感與舒適兼具，強調功能與輕易維修的居家空間。</div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block product'>
+        <div class='product'>
+          <div class='title'>近期作品</div>
+          <div class='line'></div>
+          <div class='items'>
+            <div class='item_container'>
+              <div class='item'>
+                <img src='img/tw/cover01.jpg' />
+                <div class='title'>極簡之家</div>
+                <div class='content'>一個挑戰傳統規劃的居家形式。原始的概念在於，重新思考建商所設定的空間格局與尺寸。以客戶生活習慣為主，配合公寓所在位置的優勢，將活動...</div>
+                <div class='more' data-name='_product_more1'>更多</div>
+              </div>
+              <div class='item'>
+                <img src='img/tw/cover02.jpg'/>
+                <div class='title'>個人工作室 V.S. 住家</div>
+                <div class='content'>原本屬於一個部份裝修的住宅工作室，最後發展為一個全裝修的個案。針對這位喜歡在家工作，邀約朋友及下廚的屋主，我們試圖重新座落其居家的...</div>
+                <div class='more' data-name='_product_more2'>更多</div>
+              </div>
+              <div class='item'>
+                <img src='img/tw/cover03.jpg' />
+                <div class='title'>寬堂工作室</div>
+                <div class='content'>為了滿足室內設計工作室的多方面的須要，這個僅15坪的工作空間，經過仔細的計算與規劃，將不同的功能須求與儲藏空間，巧妙的置入其中。有別...</div>
+                <div class='more' data-name='_product_more3'>更多</div>
+              </div>
+            </div>
+            <div class='bottom'>
+              <div class='button'><a href='http://harmonizewiifm.blogspot.tw/search/label/%E5%AF%AC%E5%A0%82%E4%BD%9C%E5%93%81' target='_blank'>更多</a></div>
+              <div class='doc'>‧ ‧ ‧</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block contact'>
+        <div class='contact'>
+          <div class='title'>聯絡我們</div>
+          <div class='line'></div>
+
+          <div class='infos'>
+            <div class='left'>
+              <div class='title1'>歡迎您與我們連絡</div>
+              <div class='content1'>我們了解你的工作十分忙碌，時間亦十分的寶貴。在打造專屬的好宅之前，為了展現自身的喜好與空間格局，我們知道你搜尋了許多相關書籍與網頁相片，但可能還是無法決定下一步。
+              我們可以協助並一步步的創造你真正想要的居住環境，它不僅舒適且容易保養，並且是能讓你的訪客眼睛為之一亮的空間氛圍。
+              </div>
+              <div class='title2'>連絡方式</div>
+              <div class='content2'><p>T</p>+886 2-2739-3216</div>
+              <div class='content2'><p>F</p>+886 2-2739-3219</div>
+              <div class='content2'>hd@harmonizedesign.com</div>
+              <div class='content2'><b>110 台北市信義區基隆路二段189號12樓</b></div>
+            </div>
+            <div class='right'>
+              <form action=''>
+                <div class='line'></div>
+                <input type='text' id='_name' name='name' value='' placeholder='姓名' pattern='.{1,}' required title='請輸入姓名!' />
+                <input type='text' id='_email' name='email' value='' placeholder='電子郵件地址' pattern='.{1,200}' required title='請輸入電子郵件地址!' />
+                <textarea id='_comment' name='comment' placeholder='留言' pattern='.{1, }' required title='請輸入留言!'></textarea>
+                <button type='submit' class='button'>送出</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='footer'>
+        <div class='item'><img src='img/flogo.png' width='181px' height='130px'/></div>
+        <div class='item'>
+          <div class='info'>
+            © 2014 Harmonize Design - All Rights Reserved
+          </div>
+        </div>
+        <div class='item'>
+          <div class='icons'>
+            <a class='icon t'></a>
+            <a class='icon f' href='https://www.facebook.com/savvyhd' target='_blank'></a>
+            <a class='icon l' href='https://www.linkedin.com/hp/?dnr=o1085NKIn7RtTxWeomuc5N5t_eRyPhjj4Hnm' target='_blank'></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="parallax-bg">
+        <img src="img/bg.jpg" />
+      </div>
+    </div>
+
+<script id='_thanks' type='text/x-html-template'>
+  <div class='thanks'>
+    <div>感謝你</div>
+    <div>親愛的朋友，非常謝謝你所留下的訊息。關於你的問題或需求，我們會儘快於24小時內與你連絡及回覆。期待能與你一起合作並 完成您心中最理想的居家氛圍！</div>
+    <div>寬堂 • 台北</div>
+  </div>
+</script>
+
+<script id='_people_more' type='text/x-html-template'>
+  <div class='people_more'>
+    <div class='img'>
+      <div class='avatar'>
+        <img src='img/pmore.png' />
+      </div>
+    </div>
+
+    <div class='title'>我們協助與創造你想要的家</div>
+    <div class='content'>
+    日本建築師安藤忠雄說：「所謂的住宅，起源於人類最根本的慾望…應該是呈現每個居民夢想的地方，而且真正的富裕並不是單純的便利、舒適，而是就算在有限的空間中也能創造豐富。」
+    <br/><br/>
+    是的，在事業與生活上，你可以成就你的慾望。而你的家，更應該呈現你的夢想，而不是其他任何人的。所以，我認為，為了滿足你的需求，客製且獨特的設計是不二的選項。
+    <br/><br/>
+    我們鍾情於住宅設計，並且是作出有意義的空間--這是唯一重要的事。
+    <br/><br/>
+    為了成就你的特質，與其花許多週末的時間，尋找適合你的設計師，現在，你可以把設計交給我們，讓你可以無後顧之憂的利用難得的週末，去看一場很棒的表演，或者放心和你的酒黨們相聚。於裝修開始後，如果你真的忙不過來，卻想看看工程進度時，滑滑手機就行。如何？聽起來不錯吧！
+    <br/><br/>
+    還有一件事：你和我一樣，都喜歡面對面的建立關係，所以，如果你希望與我們共同合作來創造一個完全屬於你的家，請不要猶豫，隨時透過電子郵件或者來電，告訴我們任何想法或細節，我們可以從那裡開始…
+    </div>
+
+    <div class='bottom'>
+      <div class='button'>聯絡</div>
+      <div class='doc'>‧ ‧ ‧</div>
+    </div>
+  </div>
+</script>
+
+<script id='_product_more1' type='text/x-html-template'>
+  <div class='product_more'>
+    <div class='banner_bar'>
+      <div class='arrow_l'>
+        <img class='disable' src='img/left.png' />
+      </div>
+      <div class='banner'>
+        <div class='banners'>
+          <img src='img/tw/a/1.jpg' />
+          <img src='img/tw/a/2.jpg' />
+          <img src='img/tw/a/3.jpg' />
+          <img src='img/tw/a/4.jpg' />
+          <img src='img/tw/a/5.jpg' />
+          <img src='img/tw/a/6.jpg' />
+          <img src='img/tw/a/7.jpg' />
+          <img src='img/tw/a/8.jpg' />
+          <img src='img/tw/a/9.jpg' />
+          <img src='img/tw/a/10.jpg' />
+          <img src='img/tw/a/11.jpg' />
+          <img src='img/tw/a/12.jpg' />
+        </div>
+      </div>
+      <div class='arrow_r'>
+        <img src='img/right.png' />
+      </div>
+    </div>
+    <div class='title'>極簡之家</div>
+    <div class='content'>一個挑戰傳統規劃的居家形式。原始的概念在於，重新思考建商所設定的空間格局與尺寸。以客戶生活習慣為主，配合公寓所在位置的優勢，將活動的軸線重新安排。並試圖將固定隔間減到最少，將主要生活空間打開。大量運用隱藏式拉門與隔間的配合，營造通透的視覺、空間的層次與彈性使用的功能，減少視覺上的複雜度，並提高空間的流暢與通風。主陽台刻意的被保留下來，讓整個住宅單元可以呼吸，作為與外界之間的中介緩衝空間。</div>
+  </div>
+</script>
+
+<script id='_product_more2' type='text/x-html-template'>
+  <div class='product_more'>
+    <div class='banner_bar'>
+      <div class='arrow_l'>
+        <img class='disable' src='img/left.png' />
+      </div>
+      <div class='banner'>
+        <div class='banners'>
+          <img src='img/tw/b/1.jpg' />
+          <img src='img/tw/b/2.jpg' />
+          <img src='img/tw/b/3.jpg' />
+          <img src='img/tw/b/4.jpg' />
+          <img src='img/tw/b/5.jpg' />
+          <img src='img/tw/b/6.jpg' />
+          <img src='img/tw/b/7.jpg' />
+          <img src='img/tw/b/8.jpg' />
+          <img src='img/tw/b/9.jpg' />
+          <img src='img/tw/b/10.jpg' />
+        </div>
+      </div>
+      <div class='arrow_r'>
+        <img src='img/right.png' />
+      </div>
+    </div>
+    <div class='title'>個人工作室 V.S. 住家</div>
+    <div class='content'>原本屬於一個部份裝修的住宅工作室，最後發展為一個全裝修的個案。針對這位喜歡在家工作，邀約朋友及下廚的屋主，我們試圖重新座落其居家的生活重心。將餐桌與工作檯面合併，並利用其頂樓位置的特點，將工作室的牆面打開，引入自然光線，與餐廳結合，不僅在視覺上，加大了空間的坪數，在使用上，能更為順手，且貼近屋主實際的使用須求。同時，將廚房重新規劃，使屋主享受烹調的樂趣，同時愉悅的招待朋友。</div>
+  </div>
+</script>
+
+<script id='_product_more3' type='text/x-html-template'>
+  <div class='product_more'>
+    <div class='banner_bar'>
+      <div class='arrow_l'>
+        <img class='disable' src='img/left.png' />
+      </div>
+      <div class='banner'>
+        <div class='banners'>
+          <img src='img/tw/c/1.jpg' />
+          <img src='img/tw/c/2.jpg' />
+          <img src='img/tw/c/3.jpg' />
+          <img src='img/tw/c/4.jpg' />
+          <img src='img/tw/c/5.jpg' />
+          <img src='img/tw/c/6.jpg' />
+          <img src='img/tw/c/7.jpg' />
+          <img src='img/tw/c/8.jpg' />
+        </div>
+      </div>
+      <div class='arrow_r'>
+        <img src='img/right.png' />
+      </div>
+    </div>
+    <div class='title'>寬堂工作室</div>
+    <div class='content'>為了滿足室內設計工作室的多方面的須要，這個僅15坪的工作空間，經過仔細的計算與規劃，將不同的功能須求與儲藏空間，巧妙的置入其中。有別於一般設計，將會議室置於辦公室入口處，我們將會議室規劃於長方形平面的最尾端，同時作為內部討論的地方，充份享受陽光與夜景。內部採用無隔間的設計，使溝通能夠更直接與迅速。大量運用自然的材質與色調，如松木與草地色，營造溫暖的居家氣圍，提高長時間工作的專注度。</div>
+  </div>
+</script>
+
+  </body>
+</html>

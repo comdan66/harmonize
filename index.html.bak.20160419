@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>寬堂空間設計 Harmoniz Design</title>
+    <link rel="harmoniz icon" href="img/gicon.ico" />
+
+    <meta content="寬堂" name="description">
+    <meta content="寬堂,harmoniz,台北室內設計,室內裝潢,空間,極簡主義,客廳設計,臥室設計,餐廳設計,空間規劃,舊屋翻新,空間設計,浴室設計,廚房設計" name="keywords">
+
+    <link href="css/frame.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <script src="res/jquery_v1.10.2/jquery-1.10.2.min.js" language="javascript" type="text/javascript"></script>
+    <script src="res/underscore_v1.7.0/underscore-min.js" language="javascript" type="text/javascript"></script>
+    <script src="js/main.js" language="javascript" type="text/javascript"></script>
+
+  </head>
+  <body lang="en-us">
+
+    <div class='pop_up'>
+      <div class='close'>
+        <img src='img/x.png' />
+      </div>
+      <div class='container'></div>
+    </div>
+
+    <div class='container'>
+      <div class='header'>
+        <div class='logo'>
+          <img src='img/en/logo.png' width='250px' height='65px'/>
+        </div>
+        <div class='items'>
+          <div class='langs'>
+            <a href='index.html' class='active'>EN</a>
+            <a href='ch_index.html' class='cf'>繁中</a>
+          </div>
+          <div class='menu'>
+            <div class='item' ><a href='http://harmonizewiifm.blogspot.tw/' target='_blank'>W.I.I. FM</a></div>
+            <div class='item' data-go='contact'>CONTACT US</div>
+            <div class='item' data-go='product'>GALLERY</div>
+            <div class='item' data-go='service'>SERVICE</div>
+            <div class='item' data-go='ask'>ABOUT</div>
+            <div class='item' data-go='banner'>HOME</div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block banner'>
+        <div class='banners'>
+          <img class='banner' src='img/en/banner_00.jpg' />
+          <img class='banner' src='img/en/banner_01.jpg' />
+          <img class='banner' src='img/en/banner_02.jpg' />
+          <img class='banner' src='img/en/banner_03.jpg' />
+        </div>
+      </div>
+
+      <div class='block wbg'>
+        <img class='wbg' src='img/wbg.png' />
+        <div class='info'>
+          <div class='wbg'>
+            <div class='main_title'>WELCOME! GET EVERYTHING YOU NEED <p> & </p>CREATE AN UNIQUE HOME</div>
+            <div class='sub_title'>Find out who we are and what we can do for you.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block ask'>
+        <div class='ask'>
+          <div class='title'>WHY HARMONIZE</div>
+          <div class='line'></div>
+          <div class='info'>
+            At Harmonize Design, we believe in thinking differently to reach and create not only a higher dwelling value but also unique living quality. We define UNIQUE that interior space must be a good living container, a reflection of individual. The relation among spaces inside a home must devote to the description by Louis Kahn architect, “A plan is a society of rooms.”
+
+            While designing, we shall adopt none of embedded styles. We shall open the space and broaden the visual. Let the natural light in and create an even lighting. Underscore the concise line and shape to reduce the visual complexity. Apply varied finish materials and present the variation of textures to enhance the abundance in look-and-feel. Thus, each interior component speaks up itself and the whole interior presents a good combination of spaces in terms of calm, simple and low-loading, which fosters the interaction among rooms. Meanwhile, select furniture and lighting feature in the beginning, consider their locations and showcase them as pieces of art work so they become a part of interior. In the end, a proper but eye-catching decoration is needed to create a sense of geniality.
+
+          </div>
+          <div class='icons'>
+            <div class='icons_container'>
+              <div class='icon'><div>INNOVATIVE DESIGN</div></div>
+              <div class='icon'><div>UNIQUE STYLE</div></div>
+              <div class='icon'><div>PERSONAL ATTENTION</div></div>
+              <div class='icon'><div>EXCEPTIONAL SERVICE</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block people' style='height: 480px;'>
+        <div class='people'>
+          <div class='img' style="padding-top:120px;">
+            <div class='avatar'>
+              <img src='img/pepic.png' />
+            </div>
+          </div>
+          <div class='infos' style="padding-top:90px;">
+            <div class='title'>Profile</div>
+            <div class='info' style="padding-top:5px;">Ching Ju, AIA, Principal</div>
+            <div class='info'>Licensed Architect. Master degree of Architecture School, University of Pennsylvania. Studio Instructor of Architecture Department, Tamkang University, Taiwan.
+            Worked with Anshen and Allen Architects (US), McCall Design Group (US), Ruentex Interior Design (Taiwan) and Steven Leach Group (Taiwan). Specialized in Residential, Commercial and Office design-build. Years of work experience in interior design since 1994.
+            </div>
+            <div class='bottom'>
+              <div class='button'>More</div>
+              <div class='doc'>‧ ‧ ‧</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block dna'>
+        <div class='dna'>
+          <div class='title'>Designer DNA</div>
+          <div class='infos'>
+            <div class='quote'>
+              <img src='img/md.png' />
+            </div>
+            <div class='info'><i>Designing interior requires FOCUS. The first thing we focus is what do we want people to feel? It is Delight, Surprise, and Connect. Then we begin to craft around our intentions. There are a number of noes for every yes. We enrich, we perfect, and we start over, until every aspect we touch enhances each life. It touches. Only then do we sign our work.</i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block service'>
+        <div class='service'>
+          <div class='title'>OUR SERVICES</div>
+          <div class='line'></div>
+          <div class='icons'>
+            <div class='icons_container'>
+              <div class='icon' data-info='A clear concept thru given images and preliminary layout that match the unique taste and functions of client provides a visual prospect, and starts the further dialogue.'>
+                <div class='name' style='height: 30px; margin-top: 15px;'>CONCEPT</div>
+                <img src='img/sicon01.png' />
+              </div>
+              <div class='icon' data-info='The preferred accents and functions will be transformed thru drawings by our acute inputs and experienced know-how. A full design package and budget for construction will be settled.'>
+                <div class='name' style='height: 30px; margin-top: 15px;'>DESIGN</div>
+                <img src='img/sicon02.png' />
+              </div>
+              <div class='icon' data-info='Daily monitoring during the fit-out phase holds the work quality and keeps schedule on track. All due diligence will also be exercised to minimize the fit-out conflict.'>
+                <div class='name' style='height: 30px; margin-top: 15px;'>FITOUT</div>
+                <img src='img/sicon03.png' />
+              </div>
+              <div class='icon' data-info='We prefer “Wow Commitment” to “Oh Take-or-Leave” on the wants and needs of client. A worry-free and confident service for our clients is our first priority.'>
+                <div class='name' style='height: 30px; margin-top: 15px;'>VALUE ADDED</div>
+                <img src='img/sicon04.png' />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='info'><div class='info_container'></div></div>
+      </div>
+
+      <div class='block process'>
+        <div class='line'></div>
+        <div class='process'>
+          <div class='title'>Work Flow</div>
+          <img class='main_avatar' src='img/wb01.png' />
+          <div class='sub_title' style='margin-top: 30px;'>Start with talking to designer about needs</div>
+          <div class='icons'>
+            <div class='icons_container'>
+              <div class='icon'>
+                <img src='img/wb02.png' />
+                <div class='name'>
+                  <div class='num'>1</div>
+                  <div class='content' style='font-weight:bold'>Images & <br/>Moods Collection</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb03.jpg' />
+                <div class='name'>
+                  <div class='num'>2</div>
+                  <div class='content' style='font-weight:bold'>Design Process &<br/>Discussion</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb04.jpg' />
+                <div class='name'>
+                  <div class='num'>3</div>
+                  <div class='content' style='font-weight:bold'>Budget &<br/>Spread Sheets</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb05.jpg' />
+                <div class='name'>
+                  <div class='num'>4</div>
+                  <div class='content' style='font-weight:bold'>Fitout &<br/>Delivery</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb06.png' />
+                <div class='name'>
+                  <div class='num'>5</div>
+                  <div class='content' style='font-weight:bold'>Completion &<br/>Defect Fix</div>
+                </div>
+              </div>
+              <div class='icon'>
+                <img src='img/wb07.png' />
+                <div class='name'>
+                  <div class='num'>6</div>
+                  <div class='content' style='font-weight:bold'>Take Photo &<br/>Move in</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block product'>
+        <div class='product'>
+          <div class='title'>GALLERY</div>
+          <div class='line'></div>
+          <div class='items'>
+            <div class='item_container'>
+              <div class='item'>
+                <img src='img/en/cover01.jpg' />
+                <div class='title'>Minimalism Home, Taipei</div>
+                <div class='content'>The 30 ping of apartment unit was designed in challenging the original layout by developer. The generic concept is to open and unfold the limited partitions and create an obstacle-free and flexible function for the core living area...</div>
+                <div class='more' data-name='_product_more1'>more</div>
+              </div>
+              <div class='item'>
+                <img src='img/en/cover02.jpg' />
+                <div class='title'>Home and Work, Taipei</div>
+                <div class='content'>This partial remodel project turns into an entire remodel one for the owner who likes to work as well as cook at home. The axis of daily life was twisted by 90 degree and the new home office was located at the end of axis.The visual...</div>
+                <div class='more' data-name='_product_more2'>more</div>
+              </div>
+              <div class='item'>
+                <img src='img/en/cover03.jpg' />
+                <div class='title'>Harmonize Office, Taipei</div>
+                <div class='content'>To satisfy the multi-functions for the int esign firm, the office area was carefully calculated to meet the varied requirements and storages. The meeting room, against the traditional layout that puts it at the entry area, was located...</div>
+                <div class='more' data-name='_product_more3'>more</div>
+              </div>
+            </div>
+            <div class='bottom'>
+              <div class='button'><a href='http://harmonizewiifm.blogspot.tw/search/label/%E5%AF%AC%E5%A0%82%E4%BD%9C%E5%93%81' target='_blank'>More work</a></div>
+              <div class='doc'>‧ ‧ ‧</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='block contact'>
+        <div class='contact'>
+          <div class='title'>CONTACT</div>
+          <div class='line'></div>
+
+          <div class='infos'>
+            <div class='left'>
+              <div class='title1'>K.I.T.</div>
+              <div class='content1'>Keep In Touch with us. We know your time is valuable and understand you are in a high position in your work. We also know you are tired of googling photos for ideas on how you want your home to reflect your personality. <br/><br/>We are here to help you calm the restlessness by waving our wand in working with young family like yours to create comfy, easy to maintain and beautiful spaces that will leave you pride to have family pictures shot in.</div>
+              <div class='title2'>Information</div>
+              <div class='content2'><p>T</p>+886 2-2739-3216</div>
+              <div class='content2'><p>F</p>+886 2-2739-3219</div>
+              <div class='content2'>hd@harmonizedesign.com</div>
+              <div class='content2'>12F, No. 189, Sec. 2, Keelung Road, Xinyi Dist., Taipei 110, Taiwan, R.O.C.</b></div>
+            </div>
+            <div class='right'>
+              <form action=''>
+                <div class='line'></div>
+                <input type='text' id='_name' name='name' value='' placeholder='Name' pattern='.{1,}' required title='Please enter your name!' />
+                <input type='text' id='_email' name='email' value='' placeholder='Email address' pattern='.{1,200}' required title='Please enter your email address!' />
+                <textarea id='_comment' name='comment' placeholder='Message' pattern='.{1, }' required title='Please enter your message!'></textarea>
+                <button type='submit' class='button'>Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='footer'>
+        <div class='item'><img src='img/flogo.png' width='181px' height='130px'/></div>
+        <div class='item'>
+          <div class='info'>
+            © 2014 Harmonize Design - All Rights Reserved
+          </div>
+        </div>
+        <div class='item'>
+          <div class='icons'>
+            <a class='icon t'></a>
+            <a class='icon f' href='https://www.facebook.com/savvyhd' target='_blank'></a>
+            <a class='icon l' href='https://www.linkedin.com/hp/?dnr=o1085NKIn7RtTxWeomuc5N5t_eRyPhjj4Hnm' target='_blank'></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="parallax-bg">
+        <img src="img/bg.jpg" />
+      </div>
+    </div>
+
+<script id='_thanks' type='text/x-html-template'>
+  <div class='thanks'>
+    <div>Thank You</div>
+    <div class='e'>Dear friend, thank you very much for your interests in and inquiring about our service. After acknowledging your information and requirements, we will contact you in 24 hours. We will be looking forward to working with you.</div>
+    <div>Harmonize Design Co., Taipei</div>
+  </div>
+</script>
+<script id='_people_more' type='text/x-html-template'>
+  <div class='people_more'>
+    <div class='img'>
+      <div class='avatar'>
+        <img src='img/pmore.png' />
+      </div>
+    </div>
+
+    <div class='title'>Harmonize Helps You Create Your Dream House</div>
+    <div class='content'>
+    “About dwelling, it derives from the original desire of human… it shall be a place that represents the dream of every dweller. The true wealthy is not only just merely about convenience and comfort but also about creating the abundance even in a limited space,” quoted Architect Tadao Ando.
+    <br/><br/>
+    You will what you want in your life and career, yep! Your home shall say about the one and only YOU, not anyone else. Therefore, I deeply believe you prefer tailored design to certain blind trendy that makes interior design pretty much look alike.
+    <br/><br/>
+    We love homes and creating meaningful space too much. And that is the only thing that matters to you.
+    <br/><br/>
+    Look, instead of spending your entire weekends on searching for right helper for your elite-house-to-be, we can help you with the design so you can go to enjoy Phantom or mingle with your Whisky gang, WORRY-FREE. After the construction starts, if you really like to review the work process but find no time, the only thing you need is a smart phone to check progress photos. How does that sound?
+    <br/><br/>
+    One more thing: both you and I do not like meaningless Q&A. So, if there is a project that you like to consider us for, please do not hesitate to drop us a few lines or give us a phone ring to tell us about the scope and scale of the big dream… that is how we start together.
+    <br/><br/>
+    Live well,
+    <br/><br/>
+    Harmonize Design
+    </div>
+
+    <div class='bottom'>
+      <div class='button'>Contact</div>
+      <div class='doc'>‧ ‧ ‧</div>
+    </div>
+  </div>
+</script>
+
+<script id='_product_more1' type='text/x-html-template'>
+  <div class='product_more'>
+    <div class='banner_bar'>
+      <div class='arrow_l'>
+        <img class='disable' src='img/left.png' />
+      </div>
+      <div class='banner'>
+        <div class='banners'>
+          <img src='img/en/p01_00.png' />
+          <img src='img/en/p01_01.png' />
+          <img src='img/en/p01_03.png' />
+          <img src='img/en/p01_04.png' />
+          <img src='img/en/p01_05.png' />
+          <img src='img/en/p01_06.png' />
+          <img src='img/en/p01_07.png' />
+          <img src='img/en/p01_08.png' />
+          <img src='img/en/p01_09.png' />
+          <img src='img/en/p01_10.png' />
+          <img src='img/en/p01_11.png' />
+          <img src='img/en/p01_12.png' />
+          <img src='img/en/p01_13.png' />
+          <img src='img/en/p01_14.png' />
+          <img src='img/en/p01_15.png' />
+          <img src='img/en/p01_16.png' />
+          <img src='img/en/p01_17.png' />
+          <img src='img/en/p01_18.png' />
+        </div>
+      </div>
+      <div class='arrow_r'>
+        <img src='img/right.png' />
+      </div>
+    </div>
+    <div class='title'>Minimalism Home, Taipei</div>
+    <div class='content'>The 30 ping of apartment unit was designed in challenging the original layout by developer. The generic concept is to open and unfold the limited partitions and create an obstacle-free and flexible function for the core living area. To present the minimalism, hidden sliding doors are smartly used to define each room in order to enhance the fluent among rooms. Also, against the use of patio as interior space, the patio is remained as it was so the entire apartment unit can breathe.</div>
+  </div>
+</script>
+
+<script id='_product_more2' type='text/x-html-template'>
+  <div class='product_more'>
+    <div class='banner_bar'>
+      <div class='arrow_l'>
+        <img class='disable' src='img/left.png' />
+      </div>
+      <div class='banner'>
+        <div class='banners'>
+          <img src='img/en/p02_00.png' />
+          <img src='img/en/p02_01.png' />
+          <img src='img/en/p02_02.png' />
+          <img src='img/en/p02_03.png' />
+          <img src='img/en/p02_04.png' />
+          <img src='img/en/p02_05.png' />
+          <img src='img/en/p02_06.png' />
+          <img src='img/en/p02_07.png' />
+          <img src='img/en/p02_08.png' />
+          <img src='img/en/p02_09.png' />
+          <img src='img/en/p02_10.png' />
+          <img src='img/en/p02_11.png' />
+        </div>
+      </div>
+      <div class='arrow_r'>
+        <img src='img/right.png' />
+      </div>
+    </div>
+    <div class='title'>Under Construction</div>
+    /*<div class='content'>This partial remodel project turns into an entire remodel one for the owner who likes to work as well as cook at home. The axis of daily life was twisted by 90 degree and the new home office was located at the end of axis. The visual was broadened and dining table becomes the core of the family life and work. The sun light is fully borrowed and brings more energy to the core area. An enlarged kitchen was happily used by owner who can invite more friends for party.</div>*/
+  </div>
+</script>
+
+<script id='_product_more3' type='text/x-html-template'>
+  <div class='product_more'>
+    <div class='banner_bar'>
+      <div class='arrow_l'>
+        <img class='disable' src='img/left.png' />
+      </div>
+      <div class='banner'>
+        <div class='banners'>
+          <img src='img/en/p03_00.png' />
+          <img src='img/en/p03_01.png' />
+          <img src='img/en/p03_02.png' />
+          <img src='img/en/p03_03.png' />
+          <img src='img/en/p03_04.png' />
+          <img src='img/en/p03_05.png' />
+          <img src='img/en/p03_06.png' />
+          <img src='img/en/p03_07.png' />
+          <img src='img/en/p03_08.png' />
+          <img src='img/en/p03_09.png' />
+          <img src='img/en/p03_10.png' />
+          <img src='img/en/p03_11.png' />
+          <img src='img/en/p03_12.png' />
+        </div>
+      </div>
+      <div class='arrow_r'>
+        <img src='img/right.png' />
+      </div>
+    </div>
+    <div class='title'>Harmonize Office, Taipei</div>
+    <div class='content'>To satisfy the multi-functions for the interior design firm, the office area was carefully calculated to meet the varied requirements and storages. The meeting room, against the traditional layout that puts it at the entry area, was located at the end of rectangular shape so it can enjoy the sun light during the meeting with client. No partition is used to define the areas so the communication among any one is straight and fast. Natural materials and color scheme such as wood and green are used to create the warm atmosphere. You can expect a calm work time and stay focus.</div>
+  </div>
+</script>
+
+  </body>
+</html>
