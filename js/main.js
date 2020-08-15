@@ -21,6 +21,7 @@ $(function () {
   var $pop_up = $('.pop_up');
   var product_index = 0;
   var headerHeight = 130;
+  var videos = [];
 
   $(window).bind ('scroll', function (e) {
     $('#parallax-bg').css ('top', (0 - ($(window).scrollTop () * 0.35)) + 'px');
@@ -53,14 +54,15 @@ $(function () {
     $(this).addClass ('show').siblings ().removeClass ('show');
     $('.service .info_container').text ($(this).data ('info'));
   });
-  var pop_up = function (action) {
-    if ((action == 'show') && !$($pop_up).is (':visible')) {
+  var pop_up = function (action, func) {
+    if ((action == 'show') && !$pop_up.is (':visible')) {
       $('body').css('overflow', 'hidden');
       $pop_up.css ({'width': '100%', 'height': 'calc(100% - ' + headerHeight + 'px)'}).fadeIn ();
     } else if ((action == 'hide')) {
       $('body').css('overflow', body_overflow);
       $pop_up.fadeOut ();
     }
+    func && setTimeout(_ => func(), 500)
   };
 
   $('.people .button').click (function () {
@@ -70,26 +72,79 @@ $(function () {
 
   $('.product .more').click (function () {
     product_index = 0;
-    $pop_up.find ('.container').empty ().append ($(_.template ($('#' + $(this).data ('name')).html (), {}) ({})));
-    pop_up ('show');
+    
+    var $content = $(_.template ($('#' + $(this).data ('name')).html (), {}) ({}))
+    $pop_up.find ('.container').empty ().append ($content);
+    var ga = $content.data('ga')
+    ga === undefined || console.error('ga more', ga);
+
+    pop_up ('show', _ => {
+      var ga = $content.find('.item').eq(0).data('ga')
+      ga === undefined || console.error('ga product', ga);
+
+      $content.find('.video').each(function() {
+        videos.push(new YT.Player($(this).get(0), {
+          videoId: $(this).data('vid'), playerVars: { rel: 0, playsinline: 1, autoplay: false, disablekb: 0, showsearch: 0, showinfo: 0, controls: 0, iv_load_policy: 3 },
+          events: {
+            onStateChange: e => {
+              var ga = $(this).data('ga')
+              ga !== undefined && e.data == YT.PlayerState.PLAYING && console.error('ga product video playing', ga);
+              ga !== undefined && e.data == YT.PlayerState.PAUSED && console.error('ga product video paused', ga);
+            }
+          }
+        }))
+      })
+    });
   });
 
   $('.pop_up .close img').click (function () {
-    pop_up ('hide');
+    pop_up ('hide', _ => {
+      videos.forEach(t => t.pauseVideo())
+      videos = []
+    });
   });
 
   var set_arrow = function () {
-    if ((product_index + 1) >= $('.product_more .banners .item').length) $('.product_more .arrow_r img').addClass ('disable');
-    else $('.product_more .arrow_r img').removeClass ('disable');
-    if (product_index < 1) $('.product_more .arrow_l img').addClass ('disable');
-    else $('.product_more .arrow_l img').removeClass ('disable');
+    if ((product_index + 1) >= $('.product_more .banners .item').length)
+      $('.product_more .arrow_r img').addClass ('disable');
+    else
+      $('.product_more .arrow_r img').removeClass ('disable');
+
+    if (product_index < 1)
+      $('.product_more .arrow_l img').addClass ('disable');
+    else
+      $('.product_more .arrow_l img').removeClass ('disable');
   };
 
   $('body').on ('click', '.arrow_r img', function () {
-    product_index = ++product_index < $('.product_more .banners .item').length ? product_index : $('.product_more .banners .item').length - 1;
+    if (++product_index >= $('.product_more .banners .item').length)
+      return product_index = $('.product_more .banners .item').length - 1
+
+    videos.forEach(t => t.pauseVideo())
 
     $('.product_more .banners .item').map (function (j, t) {
-      $(this).css ({'left': (j - product_index) * $(this).width () + 'px'});
+      var px = (j - product_index) * $(this).width ()
+      $(this).css ({'left': px + 'px'});
+      if (px == 0) {
+        var ga = $(this).data('ga')
+        ga === undefined || console.error('ga product', ga);
+      }
+    });
+    set_arrow ();
+  });
+
+  $('body').on ('click', '.arrow_l img', function () {
+    if (--product_index < 0) return product_index = 0
+
+    videos.forEach(t => t.pauseVideo())
+
+    $('.product_more .banners .item').map (function (j, t) {
+      var px = (j - product_index) * $(this).width ()
+      $(this).css ({'left': px + 'px'});
+      if (px == 0) {
+        var ga = $(this).data('ga')
+        ga === undefined || console.error('ga product', ga);
+      }
     });
     set_arrow ();
   });
@@ -99,15 +154,6 @@ $(function () {
     setTimeout (function () {
       $("html, body").stop ().animate ({ scrollTop: $('.block.contact').offset ().top - headerHeight }, 1000);
     }, 500);
-  });
-
-  $('body').on ('click', '.arrow_l img', function () {
-    product_index = --product_index < 0 ? 0 : product_index;
-
-    $('.product_more .banners .item').map (function (j, t) {
-      $(this).css ({'left': (j - product_index) * $(this).width () + 'px'});
-    });
-    set_arrow ();
   });
 
   $('.contact form').submit (function () {
