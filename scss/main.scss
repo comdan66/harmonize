@@ -1177,9 +1177,30 @@ html {
           width: calc(100% - 550px);
 
           .info {
-            margin-top: 59px;
+            margin-top: 39px;
             font-size: 18px;
             color: rgba(255, 246, 248, 1);
+          }
+          .links {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            margin-top: 8px;
+
+            i, span, a {
+              color: rgba(255, 246, 248, 1);
+            }
+            a {
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+                color: rgba(119, 167, 73, 1.00);
+              }
+            }
+            i {
+            }
           }
 
           &:first-child {

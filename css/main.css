@@ -1372,9 +1372,27 @@ html body > .container .footer .item {
   width: calc(100% - 550px);
 }
 html body > .container .footer .item .info {
-  margin-top: 59px;
+  margin-top: 39px;
   font-size: 18px;
   color: #fff6f8;
+}
+html body > .container .footer .item .links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+html body > .container .footer .item .links i, html body > .container .footer .item .links span, html body > .container .footer .item .links a {
+  color: #fff6f8;
+}
+html body > .container .footer .item .links a {
+  text-decoration: none;
+}
+html body > .container .footer .item .links a:hover {
+  text-decoration: underline;
+  color: #77a749;
 }
 html body > .container .footer .item:first-child {
   text-align: left;
